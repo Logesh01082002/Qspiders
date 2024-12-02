@@ -1,0 +1,19 @@
+
+
+h1{
+    display: none;
+}
+
+div{
+    border: 2px solid black;
+    height: 100vh;
+}
+
+button:hover + div{ 
+    background: red;
+    border: 2px solid black;
+}
+
+button:hover + div >h1{
+    display: block;
+}
