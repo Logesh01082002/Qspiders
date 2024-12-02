@@ -1,0 +1,89 @@
+
+
+#img0{
+    height: 555px;
+    width: 1260px;
+    margin: 0px;
+    position: absolute;
+}
+
+#div1{
+    position:relative;
+    top: 50px;
+    left: 0px;
+    padding-left: 100px;
+    /* overflow: hidden; */
+}
+
+h2{
+    font-size: xx-large;
+    color: rgba(0, 0, 255, 0.797);
+    text-shadow: 2px solid green;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+button{
+    font-size: larger;
+    border-radius: 40px;
+    padding: 10px;
+    background-color: goldenrod;
+    animation-name: moveUp;
+}
+
+#div0{
+    height: 555px;
+    width: 1260px;
+    /* border: 2px solid red; */
+    position: absolute;
+    /* overflow: hidden; */
+}
+body{
+    height: 555px;
+    width: 1260px;
+}
+
+#img1 {
+   
+    position: relative;
+    bottom: -300px;
+    transition-duration: 3s;
+    box-shadow: 5px 10px 15px 5px gold;
+    border-radius: 20px;
+
+}
+
+button:hover ~ #div2{
+    position: absolute;
+    top: -180px;
+    left: 200px;
+    transition-duration: 2s;
+    /* opacity: 0.3; */
+}
+button:hover ~ #img0{
+    opacity: 0.8;
+}
+#div2{
+    position: relative;
+    top: 80px;
+    padding-left: 350px;
+    /* visibility: hidden; */
+    /* left: 300px; */
+}
+
+button::first-letter{
+    color: red;
+}
+
+p{
+    text-align: left;
+    font-size: large;
+}
+/* #round3 {
+    position: relative;
+    left: 100px;
+    height: 100px;
+    display: inline-block;
+    width: 100px;
+    border-radius: 100%;
+    border: 10px dashed rgb(151, 232, 13);
+} */

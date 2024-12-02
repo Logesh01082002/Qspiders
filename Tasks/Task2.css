@@ -1,0 +1,24 @@
+#one{
+    border: 2px solid black;
+    height:fit-content;
+    text-align: center;
+    font-size: xx-large;
+    font-family: 'Times New Roman', Times, serif;
+    padding: 20px;
+    background-color: aqua;
+}
+
+#two{
+    border: 2px solid black;
+    height: 66vh;
+    padding: 50px;
+    background-color: bisque;
+}
+
+#three{
+    /* border: 2px solid black; */
+    height: 55vh;
+    overflow: scroll;
+    background-color: lightyellow;
+}
+

@@ -1,0 +1,22 @@
+p{
+    color:blue;
+    border: 2px solid black;
+    height: 30vh;
+    overflow: scroll;
+    display: inline-block;
+    width: 65vh;
+    text-align: justify;
+    background-color: yellow;
+}
+
+span
+{
+   color: red;
+   border: 2px solid black;
+}
+
+div{
+    border: 2px solid black;
+    padding:15px;
+    background-color: aqua;
+}

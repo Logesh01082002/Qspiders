@@ -1,0 +1,20 @@
+#div2{
+    
+    border: 2px solid black;
+    border-radius: 100px;
+    border-width: 20px;
+    border-color: bisque;
+    width: 100px;
+    border-right-color: blue;
+    height: 100px;
+    transition: 6s;
+}
+
+#div1{
+    padding: 100px;
+}
+
+div:hover{
+    transform: rotate(3600deg);
+   
+}

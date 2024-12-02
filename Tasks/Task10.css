@@ -1,0 +1,222 @@
+#gp{
+    /* background-color: bisque; */
+    border: 2px solid black;
+    height: 89vh;
+    padding-left: 50px;
+    width: auto;
+}
+
+#top{
+    /* padding: 0px 0px 0px ; */
+    background-color:beige;
+}
+nav{
+    display: inline-block;
+    word-spacing: 20px;
+    position: sticky;
+    /* padding: 40px;*/
+    font-size: larger;
+    position: absolute;
+    right: 120px;
+    /* text-align: right; */
+    top:13px;
+    color: blue;
+}
+#para4{
+    display: inline-block;
+    font-size: larger;
+    position: relative;
+    left: 50px;
+    /* border: 2px solid red; */
+}
+
+#para5{
+    display: inline-block;
+    font-size: larger;
+    font-weight: 600;
+    color: orangered;
+    /* text-indent: 2px; */
+   
+}
+#parent1{
+    border: 2px solid black;
+      /* display: inline-block; */
+}
+
+h2{
+    text-align: center;
+}
+h2::first-letter
+{
+    color: red;
+}
+.para{
+    border: 2px solid black;
+    display: inline-block;
+    width: 470px;
+    margin: 25px 30px;
+    height: auto;
+    padding: 20px ;
+    padding-bottom: 30px;
+    font-size:medium;
+    background-color: silver;
+    transition: 2s;
+    box-shadow: 10px 5px 15px 5px greenyellow;
+}
+
+.para:hover{
+    transform: skewX(-25deg);
+    transform: scale(1.1);
+
+}
+
+#para6{
+    font-size:x-large;
+    text-shadow: 2px;
+    font-weight: bolder;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    /* font-weight: 400; */
+}
+
+#para3{
+    margin-left: 300px;
+}
+
+.bor1{
+    /* border: 2px solid black; */
+    text-align: center;
+    margin: 0px;
+
+}
+.bor{
+    /* border: 2px solid black; */
+    height: 96%;
+    padding: 10px;
+}
+
+.item{
+    height: 490px;
+    width: 450px;
+    /* border: 2px solid black; */
+    /* height:600px; */
+    display: inline-block;
+    position: relative;
+    left: 100px;
+    margin: 30px;
+    box-shadow: 10px 0px 20px 0px;
+    /* transition: 2s; */
+    /* box-shadow: 10px 10px 10px solid grey; */
+}
+
+img{
+    height: 222px;
+    width: 450px;
+}
+.para0{
+    display: inline-block;
+    width: 430px;
+    margin: 0px;
+    padding: 10px;
+    color: rgb(113,110,111);
+    /* border: 2px solid black; */
+}
+#header1{
+    display: inline-block;
+}
+
+h3,p{
+    margin: 10px;
+}
+
+#but{
+    color: white;
+    border-radius: 10px;
+    /* padding: 5px; */ 
+    background-color: rgb(229,51,89);
+    position: relative;
+    left: 30px;
+    padding-left: 10px;
+    padding-right: 30px;
+    padding-top:10px;
+    padding-bottom: 10px;
+}
+
+#but2{
+    padding: 5px;
+    color: white;
+
+    border-radius: 10px;
+     margin-left: 50px; 
+    background-color: rgb(37,33,34);
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-top:10px;
+    padding-bottom: 10px;
+}
+
+.para:hover{
+    transform: skewX(-25deg);
+
+}
+
+#para6::after{
+    border: 1px solid black;
+    content: " ";
+    width: 40%;
+    top: 107.3%;
+    position: absolute;
+    left: 700px;
+    border-style: solid;
+    border-color: grey;
+
+}
+
+#para6::before{
+    border: 1px solid black;
+    content: "";
+    width: 40%;
+    top: 107.3%;
+    position: absolute;
+    left: 60px;
+    border-bottom-style: none;
+    border-style: solid;
+    border-color: grey;
+}
+
+.foot{
+    padding: 0px;
+}
+
+ .item:hover{
+    transform: scale(1.1);
+    transition: 2s;
+} 
+ 
+
+ #but:hover{
+    /* height: 10px;
+    width: 60px; */
+    transform: scale(1.1);
+    transition: 1s;
+} 
+
+#but2:hover{
+    /* height: 10px;
+    width: 60px; */
+    transform: scale(1.1);
+    transition: 1s;
+} 
+
+#parent1{
+    position: sticky;
+    top: 0px;
+}
+
+#div1{
+    /* border: 2px solid black; */
+    padding-top: 25px ;
+}
+#div13{
+   border: 2px solid black;
+   margin: 0px;
+}

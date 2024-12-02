@@ -1,0 +1,65 @@
+
+#grand{
+    height: 200vh;
+    
+    border: 2px solid black;
+}
+
+.border
+{
+    border: 2px solid rgb(14, 13, 13);
+}
+
+#nav{
+    
+    background-color: aqua;
+    word-spacing: 100px;
+    height: 60px;
+    font-size: large;
+    text-align: center;
+    padding: 10px;
+    position: sticky;
+    top: 0px;
+}
+
+header{
+    background-color: antiquewhite;
+    height: 60px;
+    font-size: xx-large;
+    text-align: center;
+    padding: 10px;
+
+}
+
+#para1{
+    display: inline-block;
+    width: 350px;
+    
+}
+#para2{
+   display: inline-block;
+   width: 350px;
+}
+article{
+    background-color: grey;
+    padding: 100px;
+    height: 50vh;
+}
+
+section{
+    background-color: beige;
+    padding: 100px;
+    height: 50vh;
+}
+
+footer{
+    background-color: greenyellow;
+    height: 60px;
+    padding: 10px;
+    position: fixed;
+    bottom: 0px;
+    width: 96.7%;
+    font-size: xx-large;
+    text-align: center;
+}
+

@@ -1,0 +1,37 @@
+
+
+p{
+    padding: 10px;
+    overflow: scroll;
+    border:2px solid rgb(23, 3, 3);
+    height: 250px;
+    background-color: aquamarine;
+    width:65%;
+    text-align: justify;
+    text-indent: 30px;
+    font-variant: initial;
+    font-family: 'Times New Roman', Times, serif;
+    font-style: oblique;
+   
+}
+
+div{
+    border: 2px solid black;
+}
+
+h1{
+    text-align: center;
+}
+#two{
+    background-color: yellow;
+
+}
+
+#three{
+    background-color: bisque;
+    padding: 60px;
+    text-align: center;
+    height: 62vh;
+
+}
+

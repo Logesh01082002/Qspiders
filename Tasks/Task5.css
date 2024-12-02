@@ -1,0 +1,39 @@
+#one{
+    padding: 50px;
+    height: fit-content;
+    background-color: aqua;
+    border: 2px solid black;
+
+}
+
+#two{
+    background-color: yellow;
+    padding: 50px;
+    border: 4px dotted black;
+}
+
+.para{
+    padding: 20px;
+    margin: 10px;
+    display: inline-block;
+    width: 280px;
+    border-radius: 30px;
+    height: fit-content;
+    border-width: 5px;
+    border-top-color: goldenrod;
+    border-style: groove;
+    border-bottom-color: blue;
+    /* border: 5px dotted rgb(224, 8, 8); */
+}
+
+#id1{
+    background-color: red;
+}
+
+#id2{
+    background-color: blueviolet;
+}
+
+#id3{
+    background-color: red;
+}

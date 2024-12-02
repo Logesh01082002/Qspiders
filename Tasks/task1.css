@@ -1,0 +1,34 @@
+/* div section p b {
+    background-color: cadetblue;
+
+} 
+ div > section > p > b{
+    color: red;
+ }
+
+/* 
+div section p{
+    background-color: aqua;
+} 
+
+div > section > span > p > b {
+    color: blue;
+}
+    */
+
+/* div > section span > p {
+    background-color: aqua;
+}
+
+div ~ p{
+    background-color: blue;
+}
+ */
+
+ div article{
+    background-color: aqua;
+ }
+
+ 
+
+

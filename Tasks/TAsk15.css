@@ -1,0 +1,145 @@
+
+        #gp{
+            border: 2px solid black;  
+            height: 200vh; 
+        }
+        nav{ 
+            background-color: chocolate;
+            display: inline-block;
+            border-radius: 10px;
+            background-image: linear-gradient(to right,skyblue,yellow,blue  );
+            border: 2px solid black;
+            padding: 9px 25px;
+        }
+        #nav{
+            padding:10px;
+            height: 40px;
+            border: 2px solid black;
+            word-spacing: 40px;
+            background-image: linear-gradient(rgb(95, 235, 15),yellow,rgb(218, 72, 72));
+        }
+
+        #but{
+            position: absolute;
+            display: inline-block;
+            top: 23px;
+            right: -180px;
+            /* margin-left: 0px; */
+            word-spacing: 10px;
+            /* border:2px solid red; */
+        
+        }
+        .but1{
+            /* background-color: rgb(8, 244, 157); */
+            border-radius: 15px;
+            padding:10px 15px;
+            background-image: linear-gradient(to right,green,sandybrown,orange  );
+        }
+
+        #mid{
+            height: 90vh;
+            border: 2px solid black;
+        }
+        #mid1{
+            /* border: 2px solid black; */
+            position: relative;
+            top: -500px;
+            left: 50px;
+            display: inline-block;
+        }
+        h1{
+            color: red;
+            font-size: xx-large;
+        }
+        .par{
+            color: white;
+            font-size: larger;
+            z-index: 1;
+        }
+
+
+        #last{
+            height: 99vh;
+            border: 2px solid black;
+        }
+        span{
+            color: greenyellow;
+        }
+        h1::first-letter{
+            color: greenyellow;
+        }
+        .but2:hover{
+                background-color: yellowgreen;
+                cursor: pointer;
+                transform: scale(1.2);
+        }
+
+        nav:hover{
+        background-color: aqua;
+        cursor: pointer;
+        transform: scale(1.2);
+        }
+        #signin:hover{
+            background-color: blue;
+            cursor: pointer;
+            transform: scale(1.2);
+        }
+
+
+        #hide{
+            border: 2px solid black;
+            height: 300px;
+            width: 380px;
+            position: relative;
+            top: -700px;
+            left: -600px;
+            background-image: url(../login.avif);
+            background-repeat: no-repeat;
+            border-radius: 15px;
+            color: white;
+            /* z-index: -2; */
+            padding-top: 50px;
+            padding-left: 50px;
+            font-size: xx-large;
+            background-size: 480px 400px;
+            box-shadow: 0 0 28px greenyellow;
+            
+            
+        }
+        .but2{
+            border-radius: 10px;
+            background-image: linear-gradient(rgb(245, 123, 9),rgb(19, 224, 210),red);
+            padding: 10px 30px; 
+            position:relative;
+            bottom: -50px;
+            left: 30px;
+            margin: 20px;
+        }
+
+        #signin:hover ~ #hide {
+            background-color: blue;
+            /* visibility: visible; */
+            animation-name: over;
+            animation-duration: 3s;
+            animation-timing-function: ease;
+            animation-fill-mode: forwards;
+            z-index: 1;
+            
+
+        }
+@keyframes over {
+    from
+    {
+        /* top: -300px; */
+        transform: translateY(-400px);
+    
+    }
+    to{
+        top: 50%;
+        /* right: 50%; */
+        /* transition-duration: 50s; */
+        /* transform: translateY(100px); */
+    }
+    
+}
+        
