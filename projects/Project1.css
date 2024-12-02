@@ -1,0 +1,128 @@
+#one{
+   /* border: 2px solid black; */
+   height: 605px;
+   display: inline-block;
+   width: 100%;
+   margin: 0px;
+   align-content: center;
+   /* border: 1px solid  #926239; */
+
+ }
+  #section1{
+   padding: 0px;
+   text-align: center;
+   
+  }
+
+  .sec{
+      padding: 0px;
+      margin: 0px;
+   text-align: center;
+  }
+
+ h1{
+   /* border: 1px solid  #926239; */
+    color: #926239;
+    font-size: 50px;
+    display: inline;
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0px;
+    padding: 0px 0px 0px 0px;
+   }
+
+
+   body{
+      font-family: Arial, Helvetica, sans-serif;
+      font-size: 17px;
+      color: #926239;
+      line-height: 1.6;
+   }
+
+ #para1{
+    display: block;
+   /* border: 1px solid  #926239; */
+    color: #926239;
+    font-size: 20px;
+    padding: 0px;
+    margin: 0px 0px 30px 0px ;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+ }
+
+ a.button{
+    color: #926239;
+    font-size: 18px;
+    text-decoration: none;
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0px 0px 0px 0px ;
+    padding: 15px 20px;
+    size: 130px 50px;
+    border: 1px solid  #926239;
+    border-radius: 10px;
+ }
+
+ #para2{
+    background-color: #926239;
+    color: white;
+    padding: 20px;
+    margin: 0px;
+    font-size: 17px;
+    line-height: 30px;
+    font-family: Arial, Helvetica, sans-serif;
+ }
+
+    #para3{
+      display: inline-block;
+      margin: 0px;
+      padding: 20px;
+      background-color: #f4f4f4;
+   }
+
+   #section3{
+      /* border: 2px solid #926239; */
+      display: inline-block;
+      padding: 0px;
+      height: 120px;
+      width: 1270px;
+      margin: 0px;
+   }
+   .box{
+      /* border: 2px solid red; */
+      margin: 0px;
+      border-spacing: 0px;
+      height: 90px;
+      width: 389.5px;
+      display: inline-block;
+      text-align: left;
+      padding: 15px 15px 15px 15px;
+
+   }
+#box1{
+   background-color: #926239;
+   color: #fff;
+}
+
+#box2{
+   background-color: #f9f9f9;
+   color: #926239;
+}
+
+#box3{
+   background-color: #926239;
+   color: #fff;
+
+}
+
+div{
+   display: block;
+}
+
+*{
+   margin: 0px;
+   padding: 0px;
+}
+
+a:hover{
+   background-color: #926239;
+   color: #fff;
+}
