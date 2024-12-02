@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form</title>
+</head>
+<style>
+    
+</style>
+
+<body>
+<fieldset>
+    <legend>Students Details</legend>
+       
+    <form action="#" method="get"  autocomplete="off">
+        <label for="user_fname">Ename : </label>
+        <input type="text" name="first_name" id="user_fname" autofocus value="Logesh  E">
+
+  </br>
+</br>
+  <label for="user_lname">Lname :</label>
+  <input type="text" name="last name" id="user_lname" value="qspiders" required placeholder="enter the last name" readonly>
+</br>
+</br>
+  <label for="user_dob">Date of Birth  : </label>
+  <input type="datetime-local" name="date_of_birth" id="user_dob" placeholder="enter DOB">
+</br>
+</br>
+    <label for="user_age">Age : </label>
+    <input type="number" name="age_field" id="user_age" placeholder="enter the AGE" step="5" min="18" max="35">
+</br>
+</br>
+   <label for="user_gender">Gender :</label>
+  <input type="radio" name="gender" id="gender_male" value="male">Male
+  <input type="radio" name="gender" id="gender_female" value="female">Female
+  <input type="radio" name="gender"  id="gender_others" value="others">Others
+</br>
+</br>
+<label for="user_email">Email :</label>
+<input type="email" name="user_email_address" id="user_email" placeholder="enter the email">
+</br>
+</br>
+   <label for="user_mobile">Mobile no :</label>
+   <input type="tel" name="user_mobile_contact" id="user_mobile" pattern="[0-9]{10}" placeholder="enter the mobile number">
+</br>
+</br>
+  <label for="cource">Course :</label>
+  <select name="user_course" id="course">
+      <option value="html">html</option>
+      <option value="CSS">CSS</option>
+      <option value="Python">Python</option>
+      <option value="React" selected>React</option>
+  </select>
+</br>
+</br>
+<label for="user_qualification">Qualification :</label>
+<input type="checkbox" name="qualification_bsc" id="user_qualification_bsc" value="bsc">BSC
+<input type="checkbox" name="qualification_msc" id="user_qualification_msc" value="msc">MSC 
+<input type="checkbox" name="qualifications_others" id="user_qualification_bsc" value="others">Others
+</br>
+</br>
+<label for="user_address">Address :</label>
+<textarea name="user_contact_address" id="user_address" placeholder="enter the address"></textarea>
+</br>
+</br>
+<input type="submit" value="submit">
+<input type="reset" value="Reset">
+  </form>
+</fieldset>
+</body>
+</html>

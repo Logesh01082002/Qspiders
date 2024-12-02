@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        td{
+            border: 2px solid black;
+        
+        }
+        #button{
+            background: lightcyan;
+        }
+    </style>
+</head>
+
+<body>
+<form action="#" method="post" autocomplete="on">
+    <label for="full_name">FullName</label>
+    <input type="text" name="user_fname" id="full_name">(max 20 char a-z and A-Z)
+<br>
+<br>    
+     <label for="last_name">LastName</label>
+     <input type="text" class="user_lname" id="last_name">(max 20 char a-z and A-Z)
+<br>
+<br>
+     <label for="date_of_birth">Date Of Birth</label>
+     <input type="datetime-local" class="user_date_of_birth" id="user_date_of_birth">
+<br>
+<br>
+    <label for="gender">GENDER :</label>
+    <input type="radio" class="user_gender_male" id="gender">Male
+    <input type="radio" class="user_gender_female" id="gender">Female
+<br> 
+<br>
+    <label for="email">Email :</label>
+    <input type="email" class="user_email" id="email">
+<br>
+<br>
+    <label for="mobile">Mobile number :</label>
+    <input type="tel" class="user_mobile" id="mobile">
+<br>
+<br>
+     <label for="address">Address :</label>
+     <textarea type="textarea" class="user_address" id="address" cols="25" rows="10"></textarea>
+<br>
+<br>
+     <label for="city">City :</label>
+     <input type="text" class="user_city" id="city">  (must 20 Char a-z and A-Z)
+<br>
+<br>
+      <label for="pincode">Pincode :</label>
+      <input type="number" class="user_pincode" id="pincode" max="16">  (16 digit number)
+<br> 
+<br>
+     <label for="state">State :</label>
+     <input type="text" class="user_state" id="state">
+<br>
+<br>
+     <label for="country">Country :</label>
+     <input type="text" class="user_country" id="country">
+<br>
+<br>
+     <label for="hobbies :">Hobbies :</label>
+     <input type="checkbox" class="user_dancing" id="hobbies">Drawing
+     <input type="checkbox" class="user_singing" id="hobbies">Singing
+     <input type="checkbox" class="user_dancing" id="hobbies">Dancing
+<br>             <input type="checkbox" class="user_others" id="hobbies">Others
+<br>
+    <table>
+        <thead>
+            <tr>
+                <th></th>
+                <th>s1.no Examination</th>
+                <th>Board</th>
+                <th>Persentage</th>
+                <th>year of passing</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td rowspan="4">Qualifications</td>
+                <td>01 class X</td>
+                <td></td>
+                <td></td>
+                <td></td>
+            </tr>
+            <tr>
+                <td>02 class II</td>                
+                <td></td>
+                <td></td>
+                <td></td>
+            </tr>
+            <tr>
+                <td>03 Graduation</td>
+                
+                <td></td>
+                <td></td>
+                <td></td>
+            </tr>
+            <tr>
+                <td>04 Masters</td>
+                
+                <td></td>
+                <td></td>
+                <td></td>
+            </tr>
+        </tbody>
+    </table>
+<br>
+     <label for="course_applied">Cources Applied for</label>
+     <input type="checkbox" class="cources" id="cources_applied">BCA
+     <input type="checkbox" class="cources" id="cources_applied">B.com
+     <input type="checkbox" class="cources" id="cources_applied">B.sc
+     <input type="checkbox" class="cources" id="cources_applied">B.A
+<br>
+<br>
+<br>
+
+<input type="submit" value="submit" id="button">
+<input type="reset" value="Reset" id="button">
+  
+
+</form>    
+</body>
+</html>

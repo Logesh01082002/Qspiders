@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Netflix Style Carousel</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #111;
+            color: white;
+            margin: 0;
+            padding: 0;
+            overflow-x: hidden;
+        }
+ 
+        .carousel-container {
+            position: relative;
+            width: 80%;
+            margin: 0 auto;
+            overflow: hidden;
+        }
+
+        .carousel-track {
+            display: flex;
+            transition: transform 0.5s ease;
+        }
+
+        .carousel-item {
+            min-width: 200px;
+            margin: 10px;
+            background-color: #222;
+            border-radius: 8px;
+            overflow: hidden;
+            transition: transform 0.3s;
+        }
+
+        .carousel-item img {
+            width: 100%;
+            height: auto;
+        }
+
+        .carousel-item:hover {
+            transform: scale(1.05);
+        }
+
+        .nav-button {
+            position: absolute;
+            top: 50%;
+            transform: translateY(-50%);
+            background: rgba(0, 0, 0, 0.5);
+            border: none;
+            color: white;
+            padding: 10px;
+            cursor: pointer;
+            z-index: 100;
+        }
+
+        .nav-button.left {
+            left: 10px;
+        }
+
+        .nav-button.right {
+            right: 10px;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="carousel-container">
+        <button class="nav-button left" onclick="moveCarousel(-1)">❮</button>
+        <div class="carousel-track" id="carouselTrack">
+            <!-- Add images or content here -->
+            <div class="carousel-item"><img src="image1.jpg" alt="Image 1"></div>
+            <div class="carousel-item"><img src="image2.jpg" alt="Image 2"></div>
+            <div class="carousel-item"><img src="image3.jpg" alt="Image 3"></div>
+            <div class="carousel-item"><img src="image4.jpg" alt="Image 4"></div>
+            <div class="carousel-item"><img src="image5.jpg" alt="Image 5"></div>
+        </div>
+        <button class="nav-button right" onclick="moveCarousel(1)">❯</button>
+    </div>
+
+    <script>
+        let currentIndex = 0;
+
+        function moveCarousel(direction) {
+            const track = document.getElementById('carouselTrack');
+            const items = document.querySelectorAll('.carousel-item');
+            const itemWidth = items[0].offsetWidth + 20; // 20px for margin
+
+            currentIndex += direction;
+            if (currentIndex < 0) {
+                currentIndex = 0;
+            } else if (currentIndex >= items.length - 4) { // Adjust for visible items
+                currentIndex = items.length - 4;
+            }
+
+            track.style.transform = `translateX(-${currentIndex * itemWidth}px)`;
+        }
+    </script>
+
+</body>
+</html>

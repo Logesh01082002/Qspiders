@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        td{
+            border: 2px solid black;
+        
+        }
+        #button{
+            background: lightcyan;
+        }
+    </style>
+</head>
+
+<body>
+    <fieldset>
+        <legend>Students Details</legend>
+    
+<form action="#" method="post" autocomplete="on">
+    
+<table>
+<tr>
+ <td> <label for="full_name">FullName :</label>
+</td>
+<td><input type="text" name="user_fname" id="full_name">(max 20 char a-z and A-Z)</td>
+</tr>
+    
+<tr>
+    <td><label for="last_name">LastName</label></td>
+    <td><input type="text" class="user_lname" id="last_name">(max 20 char a-z and A-Z)</td>
+</tr>
+<tr>
+    <td>     <label for="date_of_birth">Date Of Birth</label></td>
+    <td> <input type="datetime-local" class="user_date_of_birth" id="user_date_of_birth"></td>
+</tr>
+<tr>
+    <td><label for="gender">GENDER :</label></td>
+    <td><input type="radio" class="user_gender_male" id="gender">Male
+    <input type="radio" class="user_gender_female" id="gender">Female</td>
+</tr>
+<tr>
+    <td><label for="email">Email :</label></td>
+    <td> <input type="email" class="user_email" id="email"></td>
+</tr>
+<tr> 
+    <td><label for="mobile">Mobile number :</label></td>
+    <td><input type="tel" class="user_mobile" id="mobile"></td>
+</tr>
+<tr> 
+    <td><label for="address">Address :</label></td>
+    <td><textarea type="textarea" class="user_address" id="address" cols="25" rows="10"></textarea></td>
+</tr>
+<tr>
+    <td><label for="city">City :</label></td>
+    <td><input type="text" class="user_city" id="city">  (must 20 Char a-z and A-Z)</td>
+</tr>
+<tr>
+    <td><label for="pincode">Pincode :</label></td>
+    <td><input type="number" class="user_pincode" id="pincode" max="16">  (16 digit number)</td>
+</tr>
+<tr>
+    <td> <label for="state">State :</label></td>
+    <td> <input type="text" class="user_state" id="state"></td>
+</tr>
+<tr>
+    <td> <label for="country">Country :</label></td>
+    <td><input type="text" class="user_country" id="country"> </td>
+</tr>
+<tr>
+    <td><label for="hobbies :">Hobbies :</label> </td>
+    <td><input type="checkbox" class="user_dancing" id="hobbies">Drawing
+        <input type="checkbox" class="user_singing" id="hobbies">Singing
+        <input type="checkbox" class="user_dancing" id="hobbies">Dancing
+        <input type="checkbox" class="user_others" id="hobbies">Others
+    </td>
+</tr>
+<tr>
+    <td>Qualifications</td>
+    <td><table>
+               <thead>
+            <tr>
+                <th>s1.no Examination</th>
+                <th>Board</th>
+                <th>Persentage</th>
+                <th>year of passing</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>01 class X</td>
+                <td></td>
+                <td></td>
+                <td></td>
+            </tr>
+            <tr>
+                <td>02 class II</td>                
+                <td></td>
+                <td></td>
+                <td></td>
+            </tr>
+            <tr>
+                <td>03 Graduation</td>
+                <td></td>
+                <td></td>
+                <td></td>
+            </tr>
+            <tr>
+                <td>04 Masters</td>
+                <td></td>
+                <td></td>
+                <td></td>
+            </tr>
+        
+    </td>
+</tr>   
+</table>
+   
+<tr>
+    <td>Cources Applied for</td>
+    <td>
+        <input type="checkbox" class="cources" id="cources_applied">BCA
+        <input type="checkbox" class="cources" id="cources_applied">B.com
+        <input type="checkbox" class="cources" id="cources_applied">B.sc
+        <input type="checkbox" class="cources" id="cources_applied">B.A </td>
+</tr>
+<tr>
+    <td></td>
+    <td><input type="submit" value="submit" id="button">
+        <input type="reset" value="Reset" id="button"> </td>
+</tr>
+</tbody>
+</table>
+</form> 
+</fieldset>   
+</body>
+</html>
