@@ -1,0 +1,6997 @@
+WAD course covers all the client side web technologies.
+------------------------------------------------------------------
+• To create a real-time web sites (that can interact with the database), you should use “WAD + any one server side web technology”.
+• WAD Course:
+
+1. HTML 4
+
+2. XHTML
+
+3. CSS 2.1
+
+4. Static Web Design
+
+5. Responsive Web Design
+
+6. JavaScript
+
+7. HTML 5
+
+8. CSS 3
+
+9. Bootstrap
+
+10. jQuery
+
+11. jQuery UI / Plugins
+
+12. AJAX
+
+13. AngularJS
+
+Fundamentals of WAD / UI Technologies
+-------------------------------------------------
+
+• Application: It is a program (compiled program) that runs based on the operating system.
+
+• Client: It is a machine or device (desktop, laptop, tablet, phone or Smart TV), which can access the data from server.
+
+• Browser: It is software (tool) installed on the client, to see the output of the web page. User gives input in the browser and gets the output in the browser.
+
+o Important browsers:
+
+= Google Chrome
+
+= Mozilla Firefox
+
+= Microsoft Internet Explorer
+
+= Microsoft Edge
+
+= Apple Safari
+
+= Android Browser
+
+= Opera
+
+• Server: It is a machine that serves data to clients.
+
+• Web Server: It is a software installed on the server, which serves websites to browser. A server can have any no. of web servers.
+
+• Web site: It is a folder in the web server, where the servable data will be stored. A web server can have any no. of web sites.
+
+• Web application: It is a collection of web components, which is stored in the web site.
+
+• Web Component: It is a file present in the web application. Web components are two types:
+
+o Static Web Component: Provides same output for all requests. Ex: HTML files, CSS files, Image files etc.
+
+o Dynamic Web Component: Provides differnet output for each request. Ex: ASPX files
+
+
+Web technologies:
+-----------------------
+ These are programming languages that are used to develop (create) web applications.
+
+• Types of web technologies: Web technologies are two types. 1) Client side web technologies. 2) Server side web technologies
+
+• Client side web technologies: These are the programming languages or concepts, which code executes on the client (browser). Ex: HTML, CSS, JavaScript, jQuery, AngularJS, Bootstrap, AJAX etc.
+
+• Server side web technologies: These are the programming languages or concepts, which code executes on web server. Ex: .NET, Java, PHP, Ruby on Rails etc.
+
+
+• MIME Types: Represents type of data (content).
+(Multipurpose Internet Mail Extensions) 
+o text/plain
+o text/html
+o text/css
+o text/javascript
+o application/json
+o text/xml
+o image/png
+o image/jpeg
+o audio/mp3
+o video/mp4
+
+Multipurpose Internet Mail Extensions (MIME) is an Internet standard that extends the format of email to support: Text in character sets other than ASCII. Non-text attachments: audio, video, images, application programs etc. Message bodies with multiple parts.
+
+Character Encoding Formats: 
+----------------------------------
+
+* The characters (alphabets, digits or symbols) are converted into equivalent numbers based on “character encoding formats”.
+
+o ASCII (American Standard Code for Information Interchange): It contains standard characters only.
+
+= A-Z: 65 to 90
+
+= a-z: 97 to 122
+
+= 0-9: 48 to 57
+
+= Space: 32
+
+= Backspace: 8
+
+o Unicode: It is the extension of ASCII. Unicode includes with all language characters worldwide.
+
+• Http: It is a protocol, which provides a set of rules to send request to server and get response from server.
+
+• HTTP Status Codes: Represents type of data (content).
+o 100: Continue
+o 200: OK
+o 302: Redirection
+o 304: Not Modified
+o 400: Bad Request
+o 401: Unauthorized
+o 404: Page not found
+o 500: Internal Server Error
+
+• Http Request: It is a HTTP message sent from client to server.
+
+• Http Response: It is a HTTP message sent from server to client.
+
+Introduction to HTML:
+----------------------------
+
+• HTML stands for “Hypertext Markup Language”. “Hypertext” means “the text that can be transferred from internet server to internet client”.
+
+• HTML is a markup language. A markup language is a language that syntax will be in the form of tags.
+
+• HTML is used to design web pages. That means HTML is used to create elements (such as headings, paragraphs, icons, menus, logos, images, textboxes, 
+buttons etc.) in the web pages.
+
+• HTML is easy language to understand.
+
+• HTML is “client side language”. That means the html code executes on the client (browser).
+
+• HTML is supported by all the browsers such as Google Chrome, Mozilla Firefox, Microsoft Internet Explorer, Safari, Opera and other browsers.
+
+• HTML is used developed by “Tim Berners-Lee” and maintained by “W3C” (World Wide Web).
+
+• HTML is used in all real web sites today.
+
+• The file extension should be “.html”.
+
+• HTML is the interpreter-based language. That means the HTML code will be converted into machine language in line-by-line format. Browser interprets HTML code.
+
+• HTML is not a case sensitive language. That means you can write the html code in either upper case or lower case.
+Tag
+
+• A tag is a keyword, enclosed within “<” and “>” in HTML language.
+
+• Syntax: <tag>
+
+Types of tags
+• Tags are two types:
+
+1. Paired tags: Contains starting tag and ending tag. Ex: <h1>hello</h1>
+
+2. Unpaired tags: Contains single tag only (no separate ending tag).
+
+Ex: <hr> <br> <p> <li>
+
+<ol>
+<li>aaa
+<li>bbb
+</ol>
+
+
+Syntax of HTML Program
+------------------------------
+• Every html program should have the following syntax:
+
+<html>
+<head>
+Non Content here
+</head>
+<body>
+Content here
+</body>
+</html>
+
+First Example in HTML:
+
+• Open Notepad / Edit Plus.
+
+• Type the following program: 
+<html> 
+<head>
+<title>Welcome</title> 
+</head>
+<body> Hello, World
+</body> 
+</html>
+
+
+• Go to “File” menu and click on “Save”.
+
+• Type the file name as “first.html”.
+
+• Select the folder as “c:\html”.
+
+• Click on “Save”.
+
+• Go to “c:\html” folder and double click on “Page1.html”.
+
+• It opens “first.html” in browser (Google Chrome, Mozilla Firefox, Internet Explorer etc.).
+
+
+<html>
+
+• <html> tag represents starting and ending point of the html program.
+
+• Syntax:
+
+<html> </html>
+
+• Example:
+
+<html> </html>
+
+<head>
+
+• <head> tag represents non content information of the page.
+
+• Syntax:
+
+<head> </head>
+
+• Example:
+
+<head> </head>
+
+<body>
+
+• <body> tag represents content information of the page.
+
+• Syntax:
+
+<body> </body>
+
+• Example:
+
+<body> </body>
+
+
+<title>
+
+• <title> tag is used to specify the title of the web page that appears in the browser’s title bar.
+
+• <title> tag should be used in <head> tag only.
+
+• <head> tag is used to specify non-content information of the page.
+
+• <title> is a paired tag.
+
+• Syntax:
+
+<title>Title here</title>
+
+• Example:
+
+<title>My title</title>
+
+Headings <h1>
+
+• It is used to create first level heading (main heading).
+
+• It is a paired tag.
+
+• Syntax:
+
+<h1>heading here</h1>
+
+• Example:
+
+<h1>Heading 1 here</h1>
+
+<h2>
+
+• It is used to create second level heading (sub heading).
+
+• It is a paired tag.
+
+• Syntax:
+
+<h2>heading here</h2>
+
+• Example:
+<h2>Heading 2 here</h2> <h3>
+
+• It is used to create third level heading (sub heading).
+• It is a paired tag.
+
+• Syntax:
+
+<h3>heading here</h3>
+
+• Example:
+
+<h3>Heading 3 here</h3>
+
+<h4>
+
+• It is used to create third level heading (sub heading).
+
+• It is a paired tag.
+
+• Syntax:
+
+<h4>heading here</h4>
+
+• Example:
+
+<h4>Heading 4 here</h4>
+
+<h5>
+
+• It is used to create third level heading (sub heading).
+
+• It is a paired tag.
+
+• Syntax:
+
+<h5>heading here</h5>
+
+• Example:
+
+<h5>Heading 5 here</h5>
+
+<h6>
+
+• It is used to create third level heading (sub heading).
+
+• It is a paired tag.
+
+• Syntax:
+
+<h6>heading here</h6>
+
+• Example:
+
+<h6>Heading 6 here</h6>
+
+Example on Headings:
+
+<html>
+<head>
+<title>Headings</title>
+</head>
+<body>
+<h1>Heading 1 here</h1>
+<h2>Heading 2 here</h2>
+<h3>Heading 3 here</h3>
+<h4>Heading 4 here</h4>
+<h5>Heading 5 here</h5>
+<h6>Heading 6 here</h6>
+</body>
+</html>
+
+Paragraphs <p>
+------------------
+• It is used to create a paragraph.
+
+• It is a paired tag.
+
+• Syntax:
+
+<p>paragraph here</p>
+
+• Example:
+
+<p>Hello.</p>
+
+Example on <p>:
+
+<html>
+<head>
+<title>Paragraphs</title>
+</head>
+<body>
+<h1>Paragraphs</h1>
+<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p>
+<p>It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English. Many desktop publishing packages and web page editors now use Lorem Ipsum as their default model text, and a search for 'lorem ipsum' will uncover many web sites still in their infancy. Various versions have evolved over the years, sometimes by accident, sometimes on purpose (injected humour and the like)</p>
+<p>There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable. If
+you are going to use a passage of Lorem Ipsum, you need to be sure there isn't anything embarrassing hidden in the middle of text. All the Lorem Ipsum generators on the Internet tend to repeat predefined chunks as necessary, making this the first true generator on the Internet. It uses a dictionary of over 200 Latin words, combined with a handful of model sentence structures, to generate Lorem Ipsum which looks reasonable. The generated Lorem Ipsum is therefore always free from repetition, injected humour, or non-characteristic words etc.</p>
+</body>
+</html>
+
+Text Formatting Tags <b>
+
+• It is used to display the text in bold.
+
+• It is a paired tag.
+
+• Syntax:
+
+<b>bold text</b>
+
+• Example:
+
+<b>Hello</b>
+
+Example of <b>:
+
+<html>
+<head>
+<title>Bold</title>
+</head>
+<body>
+<h1>Bold</h1>
+This is normal text. <b>This is bold text.</b>
+</body>
+</html>
+
+<i>
+
+• It is used to display the text in italic.
+
+• It is a paired tag.
+
+• Syntax:
+
+<i>italic text</i>
+
+• Example:
+
+<i>Hello</i>
+
+Example of <i>:
+
+<html>
+<head>
+<title>Italic</title>
+</head>
+<body>
+<h1>Italic</h1>
+This is normal text. <i>This is italic text</i>
+</body>
+</html>
+
+<u>
+
+• It is used to display the text in underline.
+
+• It is a paired tag.
+
+• Syntax:
+
+<u>underline text</u>
+
+• Example:
+
+<u>Hello</u>
+
+Example on <u>:
+
+<html>
+<head>
+<title>Underline</title>
+</head>
+<body>
+<h1>Underline</h1>
+This is normal text. <u>This is underline text</u>
+</body>
+</html>
+
+<strike>
+
+• It is used to display the text in strikeout.
+
+• It is a paired tag.
+
+• Syntax:
+
+<strike>strikeout text</strike>
+
+• Example:
+<strike>Hello</strike>
+
+Example on <strike>:
+<html>
+<head>
+<title>Strikeout</title>
+</head>
+<body>
+<h1>Strikeout</h1>
+This is normal text.
+<strike>This is strikeout text</strike>
+</body>
+</html>
+
+<strong>
+• It is used to display the text in strong.
+
+• The strong tag content will be pronounced strongly in screen readers for the blind people.
+
+• It is a paired tag.
+
+• Syntax:
+
+<strong>strong text</strong>
+
+• Example:
+
+<strong>Hello</strong>
+
+Example on <strong>:
+
+<html>
+<head>
+<title>Strong</title>
+</head>
+<body>
+<h1>Strong</h1>
+This is normal text.
+<b>This is bold text.</b>
+<strong>This is strong text</strong>
+</body>
+</html>
+
+<em>
+
+• It is used to display the text in emphasis (special status).
+
+• The strong tag content will be pronounced stylishly in screen readers for the blind people.
+
+• It is a paired tag.
+
+• Syntax:
+
+<em>emphasis text</em>
+
+• Example:
+
+<em>Hello</em>
+
+Example on <em>:
+
+<html>
+<head>
+<title>Emphasis</title>
+</head>
+<body>
+<h1>Emphasis</h1>
+This is normal text.
+<i>This is italic text</i>
+<em>This is emphasis text</em>
+</body>
+</html>
+
+
+<sup>
+
+• It is used to display the text in superscript (The text appears a bit upper side of normal line).
+
+• It is a paired tag.
+
+• Syntax:
+
+<sup>superscript text</sup>
+
+• Example:
+
+<sup>Hello</sup>
+
+Example on <sup>:
+
+<html>
+<head>
+<title>Superscript</title>
+</head>
+<body>
+<h1>Superscript</h1>
+1<sup>st</sup>
+</body>
+</html>
+
+<sub>
+
+• It is used to display the text in subscript (The text appears a bit bottom side of normal line).
+
+• It is a paired tag.
+
+• Syntax:
+
+<sub>subscript text</sub>
+
+• Example:
+
+<sub>Hello</sub>
+
+Example on <sub>:
+<html>
+<head>
+<title>Subscript</title>
+</head>
+<body>
+<h1>Subscript</h1>
+1<sub>st</sub>
+</body>
+</html>
+
+<br> 
+
+<br>
+
+• It is used to moves the cursor to the next line.
+
+• It is an unpaired tag.
+
+• Syntax:
+<br>
+
+• Example:
+<br>
+Example on <br>:
+<html>
+<head>
+<title>Br</title>
+</head>
+<body>
+<h1>Br</h1>
+One<br>Two<br>Three
+</body>
+</html>
+
+<hr> 
+
+<hr>
+• It is used to display a horizontal line (horizontal ruler).
+
+• It is an unpaired tag.
+
+• Syntax:
+
+<hr>
+
+• Example:
+<hr>
+
+Example on <hr>:
+
+<html>
+<head>
+<title>Hr</title>
+</head>
+<body>
+<h1>Hr</h1>
+One<hr>Two
+</body>
+</html>
+
+<pre> 
+
+<pre>
+
+• It is used to display the text as-it-is, along with the spaces and line breaks.
+
+• It is a paired tag.
+
+• Syntax:
+
+<pre>your text here</pre>
+
+• Example:
+
+<pre>
+one two
+three four five
+</pre>
+
+Example on <pre>:
+
+<html>
+<head>
+<title>Pre</title>
+</head>
+<body>
+<h1>Pre</h1>
+one two
+three four five
+<hr>
+<pre>
+one two
+three four five
+</pre>
+</body>
+</html>
+
+<abbr> Attributes
+
+• Attributes are the details about the tag (command).
+
+• Every tag has its own set of attributes.
+
+• Attribute contains a value; The value should be written inside the double quotes.
+
+• Syntax: <tag attribute=”value”></tag>
+
+<abbr>
+
+• It is used to display full-form of a short-form when the user places mouse pointer on it.
+
+• It is a paired tag.
+
+• Syntax:
+
+<abbr title="full form here">short form here</abbr>
+
+• Example:
+<abbr title="as soon as possible">ASAP</abbr>
+
+Example on <abbr>:
+<html>
+<head>
+<title>Abbr</title>
+</head>
+<body>
+<h1>Abbr</h1>
+<abbr title="as soon as posssible">asap</abbr>
+</body>
+</html>
+
+<bdo> 
+
+<bdo>
+
+• It is used to display full-form of a short-form when the user places mouse pointer on it.
+
+• It is a paired tag.
+
+• Syntax:
+<bdo dir="rtl">your text here</bdo>
+
+• Example:
+<bdo dir="rtl">Hai how are you</bdo>
+
+• Attributes:
+1. dir:
+= ltr: It displays the text in left-to-right.
+= rtl: It displays the text in right-to-left.
+
+Example on <bdo>:
+
+<html>
+<head>
+<title>Bdo</title>
+</head>
+<body>
+<h1>Bdo</h1>
+<p>Hai how are you</p>
+<p> <bdo dir="rtl">Hai how are you</bdo> </p>
+</body>
+</html>
+
+<img>
+
+• It is used to display an image in the web page.
+
+• It is an unpaired tag.
+
+• Syntax:
+
+<img src="image path here">
+
+• Example:
+
+<img src="img1.jpg" width="200px" height="130px" title="this is tooltip">
+
+• Attributes:
+
+1. src:
+= It is used to specify path of the image file. If the image file and html file both are in the same folder, no need to specify the full path of the image.
+
+2. width:
+= It is used to specify width (horizontal size) of the image.
+
+3. height
+= It is used to specify height (vertical size) of the image.
+
+4. title
+= It is used to specify the tooltip (that appears when the user places mouse pointer on the image).
+
+5. alt
+= It is used to specify the alternate text (that appears when the image is not loaded in the browser at run time). Example on <img>:
+
+<html>
+<head>
+<title>Img</title>
+</head>
+<body>
+<h1>Img</h1>
+<img src="img1.jpg" width="200px" height="130px" title="this is tooltip" alt="This is alternate text">
+</body>
+</html>
+
+Note: Place “img1.jpg” in the current folder.
+
+<a> <a>
+
+• It is used to create a hyperlink. When the user clicks on the hyperlink, the specified web page or web site will be opened.
+
+• It is a paired tag.
+
+• Syntax:
+<a href="target url here">link text here</a>
+
+• Example:
+<a href="http://www.google.com">Google</a>
+
+• Attributes:
+1. href:
+= It is used to specify the address of web page or web site that is to be opened when the user clicks on the hyperlink.
+
+2. target="_blank":
+= It is used to open the target web page or web site in a separate browser tab.
+
+Example on <a>
+
+Page1.html
+
+<html>
+<head>
+<title>Page 1</title>
+</head>
+<body>
+<h1>Page 1</h1>
+<a href="page2.html">Go to page 2</a>
+</body>
+</html>
+
+Page2.html
+<html>
+<head>
+<title>Page 2</title>
+</head>
+<body>
+<h1>Page 2</h1>
+<a href="page1.html">Go to page 1</a>
+</body>
+</html>
+
+Example on internet links:
+
+<html>
+<head>
+<title>Hyperlinks</title>
+</head>
+<body>
+<h1>Hyperlinks</h1>
+<a href="http://www.google.com">Google</a>
+<a href="http://www.facebook.com">Facebook</a>
+<a href="http://www.microsoft.com">Microsoft</a>
+</body>
+</html>
+
+Example on target:
+
+<html>
+<head>
+<title>Hyperlinks</title>
+</head>
+<body>
+<h1>Hyperlinks</h1>
+<a href="http://www.google.com" target="_blank">Google</a>
+</body>
+</html>
+
+Example on file links:
+
+<html>
+<head>
+<title>Hyperlinks</title>
+</head>
+<body>
+<h1>Hyperlinks</h1>
+<p> <a href="vodafone.jpg">Click here to open image file</a> </p>
+<p> <a href="Document1.docx">Click here to open doc file</a> </p>
+<p> <a href="Sample.pdf">Click here to open pdf file</a> </p>
+<p> <a href="rain.mp3">Click here to open audio file</a> </p>
+<p> <a href="trailer.mp4">Click here to open video file</a> </p>
+</body>
+</html>
+
+Note: Place “vodafone.jpg”, “document1.docx”, “sample.pdf”, “rain.mp3”, “trailer.mp4” in “c:\html” folder.
+
+Example on <a> with <img>:
+
+<html>
+<head>
+<title>Hyperlinks</title>
+</head>
+<body>
+<h1>Hyperlinks</h1>
+<a href="http://www.vodafone.in">
+<img src="vodafone.jpg" width="200px">
+</a>
+</body>
+</html>
+
+Note: Place “vodafone.jpg” in the current folder.
+
+Example on <a> with internal links:
+
+<html>
+<head>
+<title>internal links</title>
+</head>
+<body>
+<a href="#first">India</a>
+<a href="#second">UK</a>
+<a href="#third">US</a>
+<h1 id="first">India</h1>
+<p>India, officially the Republic of India, is a country in South Asia. It is the seventh-largest country by area, the second-most populous country with over 1.2 billion people, and the most populous democracy in the world. Bounded by the Indian Ocean on the south, the Arabian Sea on the south-west, and the Bay of Bengal on the south-east, it shares land borders with Pakistan to the west; China, Nepal, and Bhutan to the north-east; and Burma and Bangladesh to the east. In the Indian Ocean, India is in the vicinity of Sri Lanka and the Maldives; in addition, India's Andaman and Nicobar Islands share a maritime border with Thailand and Indonesia.</p>
+<h1 id="second">UK</h1>
+<p>The United Kingdom of Great Britain and Northern Ireland, commonly known as the United Kingdom (UK) and Britain, is a sovereign state located off the north-western coast of continental Europe. The country includes the island of Great Britain, the north-eastern part of the island of Ireland, and many smaller islands. Northern Ireland is the only part of the UK that shares a land border with another state—the Republic of Ireland. Apart from this land border, the UK is surrounded by the Atlantic Ocean in the west and north, the North Sea in the east, the English Channel in the south and the Irish Sea in the west.</p>
+<h1 id="third">US</h1>
+<p>The United States of America (USA), commonly called the United States (US or U.S.) and America, is a federal constitutional republic consisting of fifty states and a federal district. The country is situated mostly in central North America, where its forty-eight contiguous states and Washington, D.C., the capital district, lie between the Pacific and Atlantic Oceans, bordered by Canada to the north and Mexico to the south. The state of Alaska is in the northwest of the continent, with Canada to the east and Russia to the west across the Bering Strait. The state of Hawaii is an archipelago in the mid-Pacific. The country also possesses several territories in the Pacific and Caribbean. At 3.79 million square miles (9.83
+million km2) and with around 315 million people, the United States is the third- or fourth-largest country by total area, and the third-largest by both land area and population. It is one of the world's most ethnically diverse and multicultural nations, the product of large-scale immigration from many countries. The geography and climate of the United States is also extremely diverse and is home to a variety of species.</p>
+</body>
+</html>
+
+Example on <a> with page navigation:
+
+Countries.html
+
+<html>
+<head>
+<title>Hyperlinks</title>
+</head>
+<body>
+<h1>Hyperlinks</h1>
+<a href="india.html">India</a>
+<a href="uk.html">UK</a>
+<a href="us.html">US</a>
+</body>
+</html>
+
+india.html
+
+<html>
+<head>
+<title>India</title>
+</head>
+<body>
+<h1>India</h1>
+<a href="india.html">India</a>
+<a href="uk.html">UK</a>
+<a href="us.html">US</a>
+<p>India, officially the Republic of India, is a country in South Asia. It is the seventh-largest country by area, the second-most populous country with over 1.2 billion people, and the most populous democracy in the
+world. Bounded by the Indian Ocean on the south, the Arabian Sea on the south-west, and the Bay of Bengal on the south-east, it shares land borders with Pakistan to the west; China, Nepal, and Bhutan to the north-east; and Burma and Bangladesh to the east. In the Indian Ocean, India is in the vicinity of Sri Lanka and the Maldives; in addition, India's Andaman and Nicobar Islands share a maritime border with Thailand and Indonesia.</p>
+</body>
+</html>
+
+uk.html
+<html>
+<head>
+<title>UK</title>
+</head>
+<body>
+<h1>UK</h1>
+<a href="india.html">India</a>
+<a href="uk.html">UK</a>
+<a href="us.html">US</a>
+<p>The United Kingdom of Great Britain and Northern Ireland, commonly known as the United Kingdom (UK) and Britain, is a sovereign state located off the north-western coast of continental Europe. The country includes the island of Great Britain, the north-eastern part of the island of Ireland, and many smaller islands. Northern Ireland is the only part of the UK that shares a land border with another state—the Republic of Ireland. Apart from this land border, the UK is surrounded by the Atlantic Ocean in the west and north, the North Sea in the east, the English Channel in the south and the Irish Sea in the west.</p>
+</body>
+</html>
+
+us.html
+
+<html>
+<head>
+<title>US</title>
+</head>
+<body>
+<h1>US</h1>
+<a href="india.html">India</a>
+<a href="uk.html">UK</a>
+<a href="us.html">US</a>
+<p>The United States of America (USA), commonly called the United States (US or U.S.) and America, is a federal constitutional republic consisting of fifty states and a federal district. The country is situated mostly in central North America, where its forty-eight contiguous states and Washington, D.C., the capital district, lie between the Pacific and Atlantic Oceans, bordered by Canada to the north and Mexico to the south. The state of Alaska is in the northwest of the continent, with Canada to the east and Russia to the west across the Bering Strait. The state of Hawaii is an archipelago in the mid-Pacific. The country also possesses several territories in the Pacific and Caribbean. At 3.79 million square miles (9.83 million km2) and with around 315 million people, the United States is the third- or fourth-largest country by total area, and the third-largest by both land area and population. It is one of the world's most ethnically diverse and multicultural nations, the product of large-scale immigration from many countries. The geography and climate of the United States is also extremely diverse and is home to a variety of species.</p>
+</body>
+</html>
+
+List tags <ul>
+
+• UL stands for “Unordered List”.
+
+• It is used to display the list of items with bullets.
+
+• Inside <ul> tag, you should place one or more <li> tags.
+
+• It is a paired tag.
+
+• Syntax:
+<ul>
+
+<li>text here</li>
+<li>text here</li>
+…
+</ul>
+
+• Example:
+<ul>
+<li>India</li>
+<li>UK</li>
+<li>US</li>
+<li>Canada</li>
+</ul>
+
+Example on <ul>:
+<html>
+<head>
+<title>Unordered List</title>
+</head>
+<body>
+<h1>Unordered List</h1>
+<ul>
+<li>India</li>
+<li>UK</li>
+<li>US</li>
+<li>China</li>
+</ul>
+</body>
+</html>
+
+<ol>
+
+• OL stands for “Ordered List”.
+
+• It is used to display the list of items with numbers.
+
+• Inside <ol> tag, you should place one or more <li> tags.
+
+• It is a paired tag.
+
+• Syntax:
+
+<ol>
+<li>text here</li>
+<li>text here</li>
+…
+</ol>
+
+• Example:
+<ol>
+<li>India</li>
+<li>UK</li>
+<li>US</li>
+</ol>
+
+Example on <ol>:
+
+<html>
+<head>
+<title>Ordered List</title>
+</head>
+<body>
+<h1>Ordered List</h1>
+<ol>
+<li>India</li>
+<li>UK</li>
+<li>US</li>
+<li>China</li>
+</ol>
+</body>
+</html>
+
+<dl>
+
+• DL stands for “Definition List”.
+
+• It is used to display a collection of definitions.
+
+
+• Inside <dl> tag, you should place one or more <dt> and <dd> tags.
+
+• It is a paired tag.
+
+• <dt> and <dd> tags are also paired tags.
+
+• <dt> is used to specify definition title.
+
+• <dd> is used to specify definition data.
+
+• Syntax:
+
+<dl>
+<dt>title here</dt>
+<dd>definition here</dd>
+<dt>title here</dt>
+<dd>definition here</dd>
+…
+</dl>
+
+• Example:
+
+<dl>
+
+<dt>HTML</dt>
+<dd>HTML is used to design web pages.</dd>
+<dt>CSS</dt>
+<dd>CSS is used to apply styles.</dd>
+<dt>JavaScript</dt>
+<dd>JavaScript is used to create functionality.</dd>
+</dl>
+
+Example on <dl>:
+<html>
+<head>
+<title>Definition List</title>
+</head>
+<body>
+<h1>Definition List</h1>
+<dl>
+<dt>HTML</dt>
+<dd>HTML is used to create elements in the web page.</dd>
+<dt>CSS</dt>
+<dd>CSS is used to apply styles in the web page.</dd>
+<dt>JavaScript</dt>
+<dd>JavaScript is used to create functionality in the web page.</dd>
+</dl>
+</body>
+</html>
+
+Table tags <table>
+
+• <table> tag is used to display table type of data in the web page.
+
+• A table is a collection of rows. Each row is a collection of cells.
+
+• A table is represented as <table> tag; A row is represented as <tr>; A cell is represented as <td>.
+
+• Inside the <table> tag, we have to use <tr>; Inside the <tr> tag, we have to use <td>.
+
+• If the cell is representing the column heading, you can use <th> tag, instead of <td> tag.
+
+• <caption> tag is used to specify a title for the table.
+
+• “tr” stands for “Table row”.
+
+• “td” stands for “Table data”.
+
+• “th” stands for “Table header”.
+
+• <table>, <tr>, <th>, <td> and <caption> tags are paired tags.
+
+• Syntax:
+<table>
+<tr>
+<td>data here</td>
+ <td>data here</td>
+…
+</tr>
+…
+</table>
+
+• Example:
+
+<table border="1">
+<tr>
+<td>One</td>
+<td>Two</td>
+</tr>
+<tr>
+<td>Three</td>
+<td>Four</td>
+</tr>
+<tr>
+<td>Five</td>
+<td>Six</td>
+</tr>
+</table>
+
+• Attributes of <table> tag:
+
+1. border
+= “0”: No border
+= “1”: with border
+2.width
+3.Align
+4.Cellspacing : space between two cells.
+5.Cellpadding : space between border and contents of the cells.
+
+• Attributes of <td> or <th> tag:
+
+1. rowspan
+= “n”: Specifies the no. of rows to merge. The current cell occupies the space of ‘n’ no. of cells.
+
+2. colspan
+= “n px”: Specifies the no. of pixels distance between cell border and cell content.
+
+Example on simple use of <table>:
+
+<html>
+<head>
+<title>Table - Basic Example</title>
+</head>
+<body>
+<h1>Table - Basic Example</h1>
+<table border="1">
+<tr>
+<td>One</td>
+<td>Two</td>
+</tr>
+<tr>
+<td>Three</td>
+<td>Four</td>
+</tr>
+<tr>
+<td>Five</td>
+<td>Six</td>
+</tr>
+</table>
+</body>
+</html>
+
+Example on <table>:
+
+<html>
+<head>
+<title>Table - Students</title>
+</head>
+<body>
+<h1>Table - Students</h1>
+<table border="1">
+<caption>Students</caption>
+<tr>
+<th>Sl. No</th>
+<th>Name</th>
+<th>Marks</th>
+</tr>
+<tr>
+<td>1</td>
+<td>John</td>
+<td>89</td>
+</tr>
+<tr>
+<td>2</td>
+<td>Scott</td>
+<td>45</td>
+</tr>
+<tr>
+<td>3</td>
+<td>Allen</td>
+<td>64</td>
+</tr>
+</table>
+</body>
+</html>
+
+Example on colspan attribute:
+
+<html>
+<head>
+<title>Table - Colspan</title>
+</head>
+<body>
+<h1>Table - Colspan</h1>
+<table border="1">
+<tr>
+<td colspan="3">.NET</td>
+<td colspan="3">Java</td>
+</tr>
+<tr>
+<td>C#.NET</td>
+<td>ASP.NET</td>
+<td>ADO.NET</td>
+<td>Core Java</td>
+<td>Adv Java</td>
+<td>J2EE</td>
+</tr>
+</table>
+</body>
+</html>
+
+Example on rowspan attribute:
+
+<html>
+<head>
+<title>Table - Rowspan</title>
+</head>
+<body>
+<h1>Table - Rowspan</h1>
+<table border="1">
+<tr>
+<td rowspan="3">.NET</td>
+<td>C#.NET</td>
+</tr>
+<tr>
+<td>ASP.NET</td>
+</tr>
+<tr>
+<td>ADO.NET</td>
+</tr>
+<tr>
+<td rowspan="3">Java</td>
+<td>Core Java</td>
+</tr>
+<tr>
+<td>Adv Java</td>
+</tr>
+<tr>
+<td>J2EE</td>
+</tr>
+</table>
+</body>
+</html>
+
+<iframe> <iframe>
+
+• <iframe> tag is used to display another web page or web site within the current web page.
+
+• Iframe stands for “inline frame”.
+
+• <iframe> is a paired tag.
+
+• Syntax:
+<iframe src="web site address here" width="n px" height="n px">
+</iframe>
+
+• Example:
+<iframe src="http://www.airtel.in/" width="400px" height="300px">
+</iframe>
+
+• Attributes of <iframe> tag:
+1. src
+= “web site path”: Specifies the web site or web page path that is to be displayed in the iframe.
+
+2. width
+= “n px”: Specifies the horizontal size of the iframe.
+
+3. height
+= “n px”: Specifies the vertical size of the iframe.
+
+4. frameborder
+= “n px”: Specifies border of the iframe.
+
+Example on <iframe>:
+<html>
+<head>
+<title>Iframe</title>
+</head>
+<body>
+<h1>Iframe</h1>
+<iframe src="http://www.lipsum.com" width="400px" height="300px">
+</iframe>
+</body>
+</html>
+
+Example on youtube video with <iframe>:
+
+<html>
+<head>
+<title>Iframe - Youtube</title>
+</head>
+<body>
+
+<h1>Iframe - Youtube</h1>
+Enjoy the video:<br>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/EJmlCNGGzdo" frameborder="0" allowfullscreen></iframe>
+</body>
+</html>
+
+Example on navigation with <iframe>:
+
+Index.html
+
+<html>
+<head>
+<title>Index</title>
+</head>
+<body>
+<h1>Index</h1>
+<a href="home.html" target="myiframe">Home</a>
+<a href="about.html" target="myiframe">About</a>
+<a href="contact.html" target="myiframe">Contact</a>
+<br>
+<iframe name="myiframe" width="100%" height="400px" src="home.html"></iframe>
+</body>
+</html>
+
+home.html
+<html>
+<head>
+<title>Home</title>
+</head>
+<body>
+<h1>Home page</h1>
+</body>
+</html>
+
+
+about.html
+<html>
+<head>
+<title>About</title>
+</head>
+<body>
+<h1>About page</h1>
+</body>
+</html>
+
+contact.html
+<html>
+<head>
+<title>Contact</title>
+</head>
+<body>
+<h1>Contact Page</h1>
+</body>
+</html>
+
+
+HTML Entities
+
+• HTML Entities are pre-defined codes for displaying special symbols within the web page.
+
+• HTML Entities are case sensitive. These must be used in lower case only.
+
+<
+>
+&
+©
+copyright
+®
+registered trademark
+™
+trademark
+
+Example on HTML Entities:
+
+<html>
+<head>
+<title>Entities</title>
+</head>
+<body>
+<h1>Entities</h1>
+<h1>HTML entities</h1>
+hai hello<br>
+&nbsp;<br>
+hai&nbsp;&nbsp;&nbsp;hello<br>
+&reg;<br>
+&copy;<br>
+&trade;<br>
+&pound;<br>
+&#8377;<br>
+&cent;<br>
+&lt;<br>
+&gt;<br>
+&amp;<br>
+</body>
+</html>
+
+<meta> <meta>
+
+• <meta> tag is used to specify meta data (additional details) about the web page.
+
+• <meta> tag provides information about the web page. Google like search engines will display your web page in the google search results, whenever one or more keywords are matching. You must upload your web page in the internet server to really use this.
+
+• <meta> tag is an unpaired tag.
+
+• Example:
+<meta name="keywords" content="Sony, Television, Price, Hyderabad">
+<meta name="description" content="Sony LED BRAVIA Prices">
+<meta name="author" content="Harsha">
+
+Example on <meta> tag:
+
+<html>
+<head>
+<title>Meta</title>
+<meta name="keywords" content="wad, full, free, material, html, css, javascript, jquery, angularjs, bootstrap">
+<meta name="description" content="This web page contains full WAD material">
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+</head>
+<body>
+<h1>Meta</h1>
+</body>
+</html>
+
+Forms <input>
+
+• <input> tag is used to create a form control (form element).
+
+• Form elements such as Textbox, Checkbox, Radio button, Browser button, submit button etc.
+
+• <input> is an unpaired tag.
+
+• Syntax:
+
+<input type="option here">
+
+• Example:
+<input type="text">
+
+• Attributes of <input> tag:
+1. type
+
+= “text”: Creates textbox. Textbox is used to accept a string value from the user.
+
+= “password”: Creates password textbox. Password textbox is used to accept a password from the user.
+
+= “submit”: Creates a submit button. Submit button is used to submit the form to the server page.
+
+= “image”: Creates a “image submit” button. Submit button is used to submit the form to the server page.
+
+= “button”: Creates a normal button. You can call “JavaScript Click event” when the user clicks on the button.
+
+= “checkbox”: Creates a check box. Checkbox is used to display Yes/No type of option to the user.
+
+= “radio”: Creates a radio button. Radiobutton is used to display two or more options to the user and allow the user to select any one of them. The “name” of 
+radio buttons should be same to group-up them.
+
+= “hidden”: Creates a hidden field. Hidden field will not be appear in the web page; but will be submitted to the server.
+
+= “file”: Creates a file browse button. Browse button is used for “attachment” option.
+
+= “reset”: Creates a reset button. Reset button clears all fields (textboxes and others) within the current form.
+
+2. maxlength
+
+* Specifies the maximum no. of characters that can be typed in the textbox.
+
+3. readonly="readonly"
+
+* Makes the textbox as readonly; so that the user can see the value but can’t type anything the textbox.
+
+4. tabindex
+
+* Specifies tab order.
+
+5. value
+
+* Represents the current value of the input element.
+
+6. name
+
+* Represents programmatic name of the input element that will be submitted to the server.
+
+7. id
+
+* Represents identification name of the input element that can be used in html, css, and javascript to get the element programmatically.
+
+8. src
+
+* Used to specify the path of the image in case of <input type="image">
+
+9. width
+
+* Used to specify the width of the image in case of <input type="image">
+
+10. height
+
+* Used to specify the height of the image in case of <input type="image">
+
+11. checked=”checked”
+
+* Used to check the checkbox or radio button, in case of 
+
+<input type=”checkbox”> or <input type=”radio”>
+
+12. disabled=”disabled”
+
+* Used to disable the button.
+
+Example on Textboxes:
+
+<html>
+<head>
+<title>textbox</title>
+</head>
+<body>
+<h1>textbox</h1>
+Name <input type="text"><br>
+Mobile <input type="text"><br>
+Email <input type="text">
+</body>
+</html>
+
+Example on Password TextBox:
+<html>
+<head>
+<title>password</title>
+</head>
+<body>
+<h1>password</h1>
+Password <input type="password">
+</body>
+</html>
+
+Example on CheckBox:
+<html>
+<head>
+<title>checkbox</title>
+</head>
+<body>
+<h1>checkbox</h1>
+<input type="checkbox">I accept license agreement
+</body>
+</html>
+
+Example on CheckBox - Checked:
+<html>
+<head>
+<title>checkbox - checked</title>
+</head>
+<body>
+<h1>checkbox - checked</h1>
+<input type="checkbox" checked="checked">I accept license agreement
+</body>
+</html>
+
+Example on Radio Buttons:
+<html>
+<head>
+<title>radio</title>
+</head>
+<body>
+<h1>radio</h1>
+Bank account type:
+<input type="radio" name="bankaccount">Savings account
+<input type="radio" name="bankaccount">Current account
+<input type="radio" name="bankaccount">Loan account
+</body>
+</html>
+
+Example on Radio Button - Checked:
+<html>
+<head>
+<title>radio - checked</title>
+</head>
+<body>
+<h1>radio - checked</h1>
+Bank account type:
+<input type="radio" name="bankaccount" checked="checked">Savings account
+<input type="radio" name="bankaccount">Current account
+<input type="radio" name="bankaccount">Loan account
+</body>
+</html>
+
+Example on File Browse Button:
+
+<html>
+<head>
+<title>file browse</title>
+</head>
+<body>
+<h1>file browse</h1>
+<input type="file">
+</body>
+</html>
+
+<form>
+
+• <form> tag is used to group-up the input elements; so that we can submit the entire form to the server.
+
+• A form is a collection of form elements such as <input>, <textarea> and <select>.
+
+• <form> is a paired tag.
+
+• Syntax:
+<form action="server page address here" method="get">
+form elements here
+</form>
+
+• Example:
+
+<form action="http://localhost/serverpage.aspx" method="get">
+
+<input type=”text” name=”Username”>
+<input type=”submit”>
+</form>
+
+• Attributes of <form> tag:
+1. action: Used to specify the server page address to which the form is to be submitted.
+
+2. method:
+
+* get:
+
+* Displays the parameter names and values in the browser’s address bar.
+
+* Useful for searching and retrieving the data from database.
+
+* post
+
+* Hides the parameter names and values in the browser’s address bar and allows you to pass the data in hidden format.
+
+* Useful for insert, update, delete, registration and login operations.
+
+Example on <form> tag:
+
+<html>
+<head>
+<title>form</title>
+</head>
+<body>
+<h1>form</h1>
+<form>
+Name <input type="text"><br>
+Mobile <input type="text"><br>
+Email <input type="text"><br>
+Password <input type="password"><br>
+<input type="checkbox">I accept license agreement<br>
+Gender:
+<input type="radio" name="gender">Male
+<input type="radio" name="gender">Female<br>
+Photo:
+<input type="file">
+</form>
+</body>
+</html>
+
+Example on reset button:
+
+<html>
+<head>
+<title>reset</title>
+</head>
+<body>
+<h1>reset</h1>
+<form>
+Name <input type="text"><br>
+Mobile <input type="text"><br>
+Email <input type="text"><br>
+Password <input type="password"><br>
+<input type="checkbox">I accept license agreement<br>
+Gender:
+<input type="radio" name="gender">Male
+<input type="radio" name="gender">Female<br>
+Photo:
+<input type="file"><br>
+<input type="reset" value="Clear">
+</form>
+</body>
+</html>
+
+Example on Submit button:
+
+<html>
+<head>
+<title>Submit</title>
+</head>
+<body>
+<h1>Submit</h1>
+<form action="http://localhost/someaddress">
+First Name:
+<input type="text" name="firstname"><br>
+Last Name:
+<input type="text" name="lastname"><br>
+<input type="submit">
+</form>
+</body>
+</html>
+
+Example on Login Form:
+<html>
+<head>
+<title>login</title>
+</head>
+<body>
+<h1>Login</h1>
+<form action="http://localhost/someaddress">
+Username: <input type="text" name="username"><br>
+Password: <input type="password" name="password"><br>
+<input type="submit" value="Login">
+</form>
+</body>
+</html>
+
+Example on Registration Form:
+<html>
+<head>
+<title>Registration</title>
+</head>
+<body>
+<h1>Registration</h1>
+<form action="http://localhost/someaddress">
+<table>
+<tr>
+<td>Name:</td>
+<td><input type="text" name="personname"></td>
+</tr>
+<tr>
+<td>Password:</td>
+<td><input type="password" name="password"></td>
+</tr>
+<tr>
+<td>News Letters:</td>
+<td><input type="checkbox" name="newsletters" value="yes"></td>
+</tr>
+<tr>
+<td>Gender:</td>
+<td>
+<input type="radio" name="gender" value="m">Male
+<input type="radio" name="gender" value="f">Female
+</td>
+</tr>
+<tr>
+<td>Photo:</td>
+<td><input type="file" name="photo"></td>
+</tr>
+<tr>
+<td><input type="submit" value="Register"></td>
+<td><input type="reset"></td>
+</tr>
+</table>
+</form>
+</body>
+</html>
+
+Example on Post Submit Button:
+
+<html>
+<head>
+<title>Post</title>
+</head>
+<body>
+<h1>Post</h1>
+<form action="http://localhost/someaddress" method="post">
+Username:
+<input type="text" name="username"><br>
+<input type="submit">
+</form>
+</body>
+</html>
+
+Example on Image Submit Button:
+
+<html>
+<head>
+<title>Image</title>
+</head>
+<body>
+<h1>Image</h1>
+<form action="http://localhost/someaddress">
+Username:
+<input type="text" name="username"><br>
+<input type="image" src="ok.png" width="20px" height="20px">
+</form>
+</body>
+</html>
+
+Note: Copy and paste “ok.png” into “c:\html” folder.
+
+<button>
+
+• <button> tag is used to display a submit button with image and text.
+
+• <button> is a paired tag.
+
+• Syntax:
+
+<button>
+
+<img src="image file path here">
+Text here
+</button>
+
+• Example:
+<button>
+<img src="ok.png">
+<br>
+OK
+</button>
+
+Example on <button> tag:
+<html>
+<head>
+<title>Button Tag</title>
+</head>
+<body>
+<h1>Button Tag</h1>
+<form action="http://localhost/someaddress">
+Username:
+<input type="text" name="username"><br>
+<button><img src="tick.png" width="25px"><br>OK</button>
+</form>
+</body>
+</html>
+
+Note: Place “tick.png” in the current folder.
+
+Example on general button:
+
+<html>
+<head>
+<title>Button</title>
+</head>
+<body>
+<h1>Button</h1>
+<input type="button" value="OK">
+</body>
+</html>
+
+Example on hidden field:
+<html>
+<head>
+<title>Hidden</title>
+</head>
+<body>
+<h1>Hidden</h1>
+<form action="http://localhost/someaddress">
+<input type="hidden" name="x" value="100">
+<input type="submit">
+</form>
+</body>
+</html>
+
+Example on readonly:
+<html>
+<head>
+<title>Readonly</title>
+</head>
+<body>
+<h1>Readonly</h1>
+Bill amount (readonly):
+<input type="text" value="1000" readonly="readonly">
+</body>
+</html>
+
+Example on TextBox disabled:
+<html>
+<head>
+<title>TextBox Disabled</title>
+</head>
+<body>
+<h1>TextBox Disabled</h1>
+Bill amount (disabled):
+<input type="text" value="1000" disabled="disabled">
+</body>
+</html>
+
+Example on Button disabled:
+<html>
+<head>
+<title>Disabled</title>
+</head>
+<body>
+<h1>Disabled</h1>
+<form action="http://localhost/someaddress">
+<input type="submit" disabled="disabled">
+</form>
+</body>
+</html>
+
+Example on Maxlength:
+<html>
+<head>
+<title>Maxlength</title>
+</head>
+<body>
+<h1>Maxlength</h1>
+Person name (30 characters):
+<input type="text" maxlength="30">
+</body>
+</html>
+
+Example on Tabindex:
+<html>
+<head>
+<title>Tabindex</title>
+</head>
+<body>
+<h1>Tabindex</h1>
+Name: <input type="text" tabindex="1"><br>
+Landline: <input type="text" tabindex="3">
+Mobile: <input type="text" tabindex="2">
+</body>
+</html>
+
+
+<label>
+
+• <label> tag is used to create field heading.
+
+• When the user clicks on the label, cursor will be appeared in the associated textbox automatically.
+
+• <label> is a paired tag.
+
+• Syntax:
+
+<label for="id of textbox here">label text here</label>
+
+• Example:
+<label for="TextBox1">Username</label>
+
+• Attributes of <label> tag:
+
+1. for: Used to specify the id of the textbox that is associated with the textbox.
+Example on <label> tag:
+
+<html>
+<head>
+<title>Label</title>
+</head>
+<body>
+<h1>Label</h1>
+<form action="http://localhost/someaddress">
+<label for="txt1">First Name:</label>
+<input type="text" id="txt1"><br>
+<label for="txt2">Last Name:</label>
+<input type="text" id="txt2"><br>
+<input type="submit">
+</form>
+</body>
+</html>
+
+<select>
+
+• <select> tag is used to create a dropdownlist or listbox.
+
+• DropDownList is used to display few options to the user and allow the user to select any one of them.
+
+• ListBox is used to display few options to the user and allow the user to select one or more of them.
+
+• Inside <select> tag, you should use <option> tags. Each <option> tag represents an option in the drop downlist.
+
+• Optionally, <optgroup> tag can be used to group-up the <option> tags.
+
+• <select>, <option> and <optgroup> tags are paired tags.
+
+• Syntax:
+<select name="name here">
+<option value="short name here">Full name here</option>
+<option value="short name here">Full name here</option>
+…
+</select>
+
+• Example:
+<select name="PaymentMode">
+<option value="Select">Select</option>
+<option value="DC">Debit Card</option>
+<option value="CC">Credit Card</option>
+<option value="NB">Net Banking</option>
+</select>
+
+• Attributes of <select> tag:
+
+1. multiple="multiple": Used to convert the dropdownlist as listbox.
+
+Example on Dropdownlist:
+<html>
+<head>
+<title>Dropdownlist</title>
+</head>
+<body>
+<h1>Dropdownlist</h1>
+<form action="http://localhost/someaddress">
+Country:
+<select name="country">
+<option>Please Select</option>
+<option>India</option>
+<option>China</option>
+<option>UK</option>
+<option>USA</option>
+<option>Japan</option>
+</select>
+<br>
+<input type="submit">
+</form>
+</body>
+</html>
+
+
+Example on OptGroup:
+
+<html>
+<head>
+<title>Optgroup</title>
+</head>
+<body>
+<h1>Optgroup</h1>
+<form action="http://localhost/someaddress">
+Bank:
+<select name="bank">
+<optgroup label="Top Banks">
+<option value="icic">ICICI Bank</option>
+<option value="hdfc">HDFC Bank</option>
+<option value="sbi">State Bank of India</option>
+</optgroup>
+<optgroup label="Other Banks">
+<option value="axis">Axis Bank</option>
+<option value="cb">Canara Bank</option>
+<option value="boi">Bank of India</option>
+<option value="iob">Indian Overseas Bank</option>
+</optgroup>
+</select>
+<br>
+<input type="submit">
+</form>
+</body>
+</html>
+
+Example on ListBox:
+
+<html>
+<head>
+<title>Listbox</title>
+</head>
+<body>
+<h1>Listbox</h1>
+<form action="http://localhost/someaddress">
+Bank:<br>
+<select name="bank" multiple="multiple">
+<optgroup label="Top Banks">
+<option value="icic">ICICI Bank</option>
+<option value="hdfc">HDFC Bank</option>
+<option value="sbi">State Bank of India</option>
+</optgroup>
+<optgroup label="Other Banks">
+<option value="axis">Axis Bank</option>
+<option value="cb">Canara Bank</option>
+<option value="boi">Bank of India</option>
+<option value="iob">Indian Overseas Bank</option>
+</optgroup>
+</select>
+<br>
+<input type="submit">
+</form>
+</body>
+</html>
+
+Example on Dropdownlist - Selected:
+<html>
+<head>
+<title>Selected</title>
+</head>
+<body>
+<h1>Selected</h1>
+<form action="http://localhost/someaddress">
+Country:
+<select name="country">
+<option>India</option>
+<option>China</option>
+<option selected="selected">UK</option>
+<option>USA</option>
+<option>Japan</option>
+</select>
+<br>
+<input type="submit">
+</form>
+</body>
+</html>
+
+
+<textarea>
+
+• <textarea> tag is used to create a multi-line textbox.
+
+• <textarea> tag is a paired tag.
+
+• Syntax:
+<textarea name="name here" rows="no. of rows" cols="no. of columns">
+</textarea>
+
+• Example:
+<textarea name="comments" rows="5" cols="25"></textarea>
+
+Example on Textarea:
+<html>
+<head>
+<title>Textarea</title>
+</head>
+<body>
+<h1>Textarea</h1>
+<form action="http://localhost/someaddress">
+Comments:<br>
+<textarea name="comments" rows="5" cols="25"></textarea><br>
+<input type="submit">
+</form>
+</body>
+</html>
+
+<fieldset>
+• <fieldset> tag is used to display a box around a set of fields.
+• <fieldset> tag is a paired tag.
+
+• Syntax:
+<fieldset>
+Your textboxes here
+</fieldset>
+
+• Example:
+<fieldset>
+<input type=”text”><br>
+<input type=”text”>
+</fieldset>
+
+Example on Fieldset:
+<html>
+<head>
+<title>Fieldset</title>
+</head>
+<body>
+<h1>Fieldset</h1>
+<form action="http://localhost/someaddress">
+<fieldset>
+Username: <input type="text"><br>
+Password: <input type="password"><br>
+<input type="submit" value="Submit">
+</fieldset>
+</form>
+</body>
+</html>
+
+<legend>
+• <legend> tag is used to display a title for the fieldset.
+
+• <legend> tag is a paired tag.
+
+• Syntax:
+<fieldset>
+<legend>title here</legend>
+Your textboxes here
+</fieldset>
+
+• Example:
+<fieldset>
+<legend>User details</legend>
+<input type=”text”> <br>
+<input type=”text”>
+</fieldset>
+
+Example on Legend:
+<html>
+<head>
+<title>Fieldset and Legend</title>
+</head>
+<body>
+<h1>Fieldset and Legend</h1>
+<form action="http://localhost/someaddress">
+<fieldset>
+<legend>Login</legend>
+Username: <input type="text"><br>
+Password: <input type="password"><br>
+<input type="submit" value="Submit">
+</fieldset>
+</form>
+</body>
+</html>
+
+<div> and <span> <div>
+
+• <div> is a container.
+
+• Inside <div> tag you can place any content like normal text or any other html tags.
+
+• When you want to divide your web page as no. of parts, each part is represented as <div> tag.
+
+• <div> is a paired tag.
+
+• Syntax:
+<div>
+Your content here
+</div>
+• Example:
+<div>
+Hello
+</div>
+<span>
+• <span> represents a small amount of text, for which you can apply some special formatting.
+• <span> is a paired tag.
+• Syntax:
+<span>Your content here</span>
+• Example:
+<span>Hello</span>
+
+--example for div tag
+
+<head>
+<title>Fieldset</title>
+</head>
+<body>
+ <div id="header" style="float:left; width:150px; height:650px; background-color:green;">
+ <a href="about.html">About</a> <br> <br>
+ <a href="Contact.html">Contact </a> <br> <br>
+ <a href="Products.html">Product</a>
+ </div>
+  <div id="Content" style="float:left; width:650px; height:650px; background-color:gold;">
+  <table border=1 align=center width=50%>
+  <tr> <th>Ename <th>Empno <th> Salary </tr>
+  <Tr><td>Aaa <td> 1001 <td> 35000 </tr>
+  <tr><td>BBB <td> 1002 <td> 45000 </tr>
+  <tr><td>CCC <td> 1003 <td> 40000 </tr>
+</div>
+ <div id="footer" style="float:right; width:250px; height:650px; background-color:blue; color:white">
+ <p> a djdlfjdlf  dfjsdlfjdsf djfldjf </p>
+ </div>
+</body>
+</html>
+
+
+
+DOCTYPE <!DOCTYPE>
+
+• DOCTYPE is a directive in HTML, which tells the browser about the version of html that you are using in the web page.
+• Various versions of html have various DOCType’s.
+
+1. HTML 4
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
+2. XHTML
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+
+3. HTML 5
+<!DOCTYPE html>
+
+Deprecated Tags HTML 4 – Deprecated Tags
+
+• The following tags are deprecated (not recommended) in html 4.
+1. <marquee>
+2. <font>
+3. <bgsound>
+4. <frameset>
+5. <frame>
+6. <basefont>
+7. <applet>
+8. <tt>
+9. <center>
+10. <u>
+11. <acronym>
+12. <big>
+13. <dir>
+14. <strike>
+
+
+
+Introduction to CSS
+------------------------
+• CSS stands for “Cascading Style Sheet”.
+
+• CSS is a “styling language”, which is used to apply styles to the html elements in the web page.
+
+• CSS styles include with backgrounds, colors, margins, borders, paddings, alignments etc.
+
+• Syntax of CSS:
+
+<style type=”text/css”>
+
+Css code here
+
+</style>
+
+• Syntax of CSS Style Definition:
+
+selector
+{
+property: value;
+property: value;
+}
+
+CSS Selectors
+
+• “Select” is a syntax to select the desired elements.
+
+• CSS supports many selectors. The most important css selectors are:
+
+1. Tag Selector
+
+2. ID Selector
+
+1. Tag Selector
+
+• The “tag selector” selects all the instances of specific tag.
+
+• Syntax: tagname
+
+• Example: p
+
+2. ID Selector
+
+• The “id selector” selects a single tag, based on the “id”.
+
+• “ID” is the “identification name”; it must be unique.
+
+• Syntax: #id
+
+• Example: #p1
+
+First Example on CSS:
+<html>
+<head>
+<title>CSS - First Example</title>
+<style type="text/css">
+p
+{
+color: green;
+}
+</style>
+</head>
+<body>
+<p>This is para</p>
+<p>This is para</p>
+<p>This is para</p>
+<p>This is para</p>
+</body>
+</html>
+
+Example on ID Selector:
+
+<html>
+<head>
+<title>CSS - ID Selector</title>
+<style type="text/css">
+#p3
+{
+color: blue;
+}
+</style>
+</head>
+<body>
+<p>para 1</p>
+<p>para 2</p>
+<p id="p3">para 3</p>
+<p>para 4</p>
+<p>para 5</p>
+</body>
+</html>
+
+CSS - Properties
+
+• “Properties” are “details” or “settings” of html tag.
+
+• Every property contains a value.
+
+• Syntax: property: value;
+
+• Example: color: green;
+
+color “color” property
+
+• This property specifies text color (font color) of the element.
+
+• Syntax: color: colorname;
+
+• Example: color: green;
+
+Example of “color” property
+<html>
+<head>
+<title>CSS - Color</title>
+<style type="text/css">
+#p1
+{
+color: red;
+}
+#p2
+{
+color: green;
+}
+#p3
+{
+color: blue;
+}
+</style>
+</head>
+<body>
+<p id="p1">para 1. You can find more information about how Google uses and stores content in the privacy policy or additional terms for particular Services.</p>
+<p id="p2">para 2. You can find more information about how Google uses and stores content in the privacy policy or additional terms for particular Services.</p>
+<p id="p3">para 3. You can find more information about how Google uses and stores content in the privacy policy or additional terms for particular Services.</p>
+</body>
+</html>
+
+background-color “background-color” property
+
+• This property specifies background color of the element.
+
+• Syntax: background-color: colorname;
+
+• Example: background-color: green;
+
+Example of “background-color” property
+<html>
+<head>
+<title>CSS - Background Color</title>
+<style type="text/css">
+#p1
+{
+background-color: red;
+}
+#p2
+{
+background-color: green;
+}
+#p3
+{
+background-color: blue;
+}
+</style>
+</head>
+<body>
+<p id="p1">para 1</p>
+<p id="p2">para 2</p>
+<p id="p3">para 3</p>
+</body>
+</html>
+
+font-family “font-family” property
+
+• This property specifies name of the font.
+
+• Syntax: font-family: “fontname”;
+
+• Example: font-family: “Arial”;
+
+Example of “font-family” property
+<html>
+<head>
+<title>CSS - Font-family</title>
+<style type="text/css">
+#p1
+{
+font-family: 'Times New Roman';
+color: red;
+}
+#p2
+{
+font-family: 'Consolas';
+color: green;
+}
+#p3
+{
+font-family: 'Comic Sans MS';
+color: blue;
+}
+</style>
+</head>
+<body>
+<p id="p1">para 1.</p>
+<p id="p2">para 2</p>
+<p id="p3">para 3</p>
+</body>
+</html>
+
+font-size “font-size” property
+
+• This property specifies size of the font.
+
+• Syntax: font-size: pixels;
+
+• Example: font-size: 30px;
+
+Example of “font-size” property
+<html>
+<head>
+<title>CSS - Font-size</title>
+<style type="text/css">
+body
+{
+font-family: 'Tahoma';
+}
+#p1
+{
+font-size: 16px;
+color: red;
+}
+#p2
+{
+font-size: 30px;
+color: green;
+}
+#p3
+{
+font-size: 50px;
+color: blue;
+}
+</style>
+</head>
+<body>
+<p id="p1">para 1</p>
+<p id="p2">para 2</p>
+<p id="p3">para 3</p>
+</body>
+</html>
+
+
+font-weight “font-weight” property
+
+• This property applies bold.
+
+• Syntax: font-weight: normal | bold;
+
+• Example: font-weight: bold;
+
+Example of “font-weight” property
+<html>
+<head>
+<title>CSS - Font-weight</title>
+<style type="text/css">
+body
+{
+font-family: 'Tahoma';
+font-size: 24px;
+}
+#p1
+{
+font-weight: normal;
+color: red;
+}
+#p2
+{
+font-weight: bold;
+color: green;
+}
+</style>
+</head>
+<body>
+<p id="p1">para 1. You can find more information about how Google uses and stores content in the privacy policy.</p>
+<p id="p2">para 2. You can find more information about how Google uses and stores content in the privacy policy.</p>
+</body>
+</html>
+
+font-style “font-style” property
+
+• This property applies italic.
+
+• Syntax: font-style: normal | italic;
+
+• Example: font-style: italic;
+
+Example of “font-style” property
+<html>
+<head>
+<title>CSS - Font-style</title>
+<style type="text/css">
+body
+{
+font-family: 'Tahoma';
+font-size: 24px;
+}
+#p1
+{
+font-style: normal;
+color: red;
+}
+#p2
+{
+font-style: italic;
+color: green;
+}
+</style>
+</head>
+<body>
+<p id="p1">para 1. You can find more information about how Google uses and stores content in the privacy policy.</p>
+<p id="p2">para 2. You can find more information about how Google uses and stores content in the privacy policy.</p>
+</body>
+</html>
+
+letter-spacing “letter-spacing” property
+
+• This property specifies gap between letters.
+
+• Syntax: letter-spacing: pixels;
+
+• Example: letter-spacing: 10px;
+
+Example of “letter-spacing” property
+<html>
+<head>
+<title>CSS - Letter-spacing</title>
+<style type="text/css">
+body
+{
+font-family: 'Tahoma';
+font-size: 24px;
+}
+#p1
+{
+letter-spacing: normal;
+color: red;
+}
+#p2
+{
+letter-spacing: -3px;
+color: green;
+}
+#p3
+{
+letter-spacing: 10px;
+color: blue;
+}
+</style>
+</head>
+<body>
+<p id="p1">para 1. You can find more information about how Google uses and stores content in the privacy policy or additional terms for particular Services.</p>
+<p id="p2">para 2. You can find more information about how Google uses and stores content in the privacy policy or additional terms for particular Services.</p>
+
+<p id="p3">para 3. You can find more information about how Google uses and stores content in the privacy policy or additional terms for particular Services.</p>
+</body>
+</html>
+
+word-spacing “word-spacing” property
+
+• This property specifies gap between words.
+
+• Syntax: word-spacing: pixels;
+
+• Example: word-spacing: 10px;
+
+Example of “word-spacing” property
+<html>
+<head>
+<title>CSS - Word-spacing</title>
+<style type="text/css">
+body
+{
+font-family: 'Tahoma';
+font-size: 24px;
+}
+#p1
+{
+word-spacing: normal;
+color: red;
+}
+#p2
+{
+word-spacing: -10px;
+color: green;
+}
+#p3
+{
+word-spacing: 20px;
+color: blue;
+}
+</style>
+</head>
+<body>
+<p id="p1">para 1. You can find more information about how Google uses and stores content in the privacy policy or additional terms for particular Services.</p>
+<p id="p2">para 2. You can find more information about how Google uses and stores content in the privacy policy or additional terms for particular Services.</p>
+<p id="p3">para 3. You can find more information about how Google uses and stores content in the privacy policy or additional terms for particular Services.</p>
+</body>
+</html>
+
+Types of colors Types of colors
+
+• Colors can be represented in 3 formats.
+
+1. Named colors
+
+2. RGB
+
+3. Hex format
+
+• Named colors:
+
+* We can write name of the color directly.
+
+* These are limited.
+
+* We can’t get exact shade of the color.
+
+* Ex: white, black, red, green, orange, pink etc.
+
+* It is not recommended in realtime.
+
+• RGB:
+
+* RGB formula specifies that the composition of 3 basic colors (red, green, blue), generates 16 million colors.
+
+* Syntax: rgb(red, green, blue)
+
+* Red = 0 to 255
+
+* Green = 0 to 255
+
+* Blue = 0 to 255
+
+* Example:
+
+* rgb(0, 0, 0) = black
+* rgb(255, 0, 0) = red
+* rgb(0, 255, 0) = green
+* rgb(0, 0, 255) = blue
+* rgb(255, 255, 0) = yellow
+* rgb(255, 255, 255) = white
+
+• Hexa decimal format:
+
+* “Hexa decimal format” is the shortcut for “RGB”.
+* Syntax: #redgreenblue
+
+* Example:
+* #ffffff = white
+* #000000 = black
+* #ff0000 = red
+* #00ff00 = blue
+* #0000ff = green
+
+* “Hexa decimal format” is recommended in realtime.
+
+Named colors - Example
+
+<html>
+<head>
+<title>CSS - Background Color - Named Colors</title>
+<style type="text/css">
+#p1
+{
+background-color: green;
+}
+</style>
+</head>
+<body>
+<p id="p1">Para 1</p>
+</body>
+</html>
+RGB - Example
+<html>
+<head>
+<title>CSS - Background Color - RGB</title>
+<style type="text/css">
+#p1
+{
+background-color: rgb(240, 250, 160);
+}
+</style>
+</head>
+<body>
+<p id="p1">Para 1</p>
+</body>
+</html>
+
+RGB - Example
+<html>
+<head>
+<title>CSS - Background Color - RGB</title>
+<style type="text/css">
+#p1
+{
+background-color: rgb(240, 250, 160);
+}
+</style>
+</head>
+<body>
+<p id="p1">Para 1p>
+</body>
+</html>
+
+Hexa decimal colors - Example
+<html>
+<head>
+<title>CSS - Background Color - Hex</title>
+<style type="text/css">
+#p1
+{
+background-color: #6fdca3;
+}
+</style>
+</head>
+<body>
+<p id="p1">Para 1</p>
+</body>
+</html>
+
+CSS Syntax:
+-----------
+
+* A CSS rule-set consists of a selector and a declaration block:
+
+selector { property: value; }
+
+--ex:
+
+h1 {
+   color: #36C;
+   font-weight: normal;
+   letter-spacing: .4em;
+   margin-bottom: 1em;
+   text-transform: lowercase;
+}
+
+em - emphemeral unit (It means "emphemeral unit" which is relative to the current font size).
+1em = 16 points.
+
+Grouping Selectors:
+---------------------
+You can apply a style to many selectors if you like. Just separate the selectors with a comma, as given in the following example -
+
+h1, h2, h3,body,p
+ {
+   color: #36C;
+   font-weight: normal;
+   letter-spacing: .4em;
+   margin-bottom: 1em;
+   text-transform: lowercase;
+}
+
+
+The Child Selectors:
+--------------------
+
+You have seen the descendant selectors. There is one more type of selector, which is very similar to descendants but have different functionality. 
+
+body > p {
+   color: #000000; 
+}
+
+
+The Class Selectors:
+--------------------
+
+we can define style rules based on the class attribute of the elements. All the elements having that class will be formatted according to the defined rule.
+
+.black 
+{
+   color: #000000; 
+}
+
+This rule renders the content in black for every element with class attribute set to black in our document. You can make it a bit more particular. For example:
+
+h1.black {
+   color: #000000; 
+}
+
+
+The ID Selectors:
+-----------------
+we can define style rules based on the id attribute of the elements. All the elements having that id will be formatted according to the defined rule.
+
+#black {
+   color: #000000; 
+}
+
+example1
+
+
+<html>
+<head>
+<style type="text/css">
+body 
+{
+    background-color: #b0c4de;
+}
+</style>
+</head>
+<body>
+
+<h1>My CSS web page!</h1>
+<p>Hello world! This is a Peerstech.com example.</p>
+
+</body>
+</html>
+
+find the color code link:
+---------------------------------
+https://www.w3schools.com/cssref/css_colors.asp
+
+--Example 2
+<HTML>
+  <TITLE>Bach's home page</TITLE>
+  <STYLE TYPE="text/css">
+    BODY { 
+      background: blue;
+      color: white;
+    }
+  </STYLE>
+  <BODY>
+    <H1>Bach's <EM>home</EM> page</H1>
+    <P>Johann Sebastian Bach was a prolific
+      composer.
+  </BODY>
+</HTML>
+
+
+--example for TextAlign
+
+
+<html>
+<head>
+<style>
+h1 {
+    text-align: center;
+}
+
+p.date {
+    text-align: right;
+}
+
+p.main {
+    text-align: justify;
+}
+</style>
+</head>
+<body>
+
+<h1>CSS text-align Example</h1>
+
+<p class="date">May, 2009</p>
+
+<p class="main">In my younger and more vulnerable years my father gave me some advice that I've been turning over in my mind ever since. 'Whenever you feel like criticizing anyone,' he told me, 
+'just remember that all the people in this world haven't had the advantages that you've had.'</p>
+
+<p><b>Note:</b> Resize the browser window to see how the value "justify" works.</p>
+
+</body>
+</html>
+
+
+--example3
+
+
+<!--ADDING SOME COLORS -->
+<html>
+<head>
+  <title>My first styled page</title>
+  <style type="text/css">
+  body {
+    font-family: Georgia, "Times New Roman",
+          Times, serif;
+    color: purple;
+    background-color: #d8da3d
+ }
+  h1 {
+    font-family: Helvetica, Geneva, Arial,
+          SunSans-Regular, sans-serif }
+a
+{
+color:white;
+}
+
+ul > li
+{
+
+color:red;
+}
+
+p
+{
+color:green;
+}
+  </style>
+</head>
+
+<body>
+<ul class="navbar">
+  <li>Home page
+  <li><a href="musings.html">Musings</a>
+  <li><a href="town.html">My town</a>
+  <li><a href="links.html">Links</a>
+</ul>
+
+<!-- Main content -->
+<h1>My first styled page</h1>
+
+<p>Welcome to my styled page!
+
+<p>It lacks images, but at least it has style.
+And it has links, even if they don't go
+anywhere&hellip;
+
+<p>There should be more here, but I don't know
+what yet.
+
+<!-- Sign and date the page, it's only polite! -->
+<address>Made 5 April 2004<br>
+  by myself.</address>
+
+</body>
+</html>
+
+
+--example 4
+--Grouping Selectors
+
+<HTML>
+  <TITLE>Bach's home page</TITLE>
+  <STYLE>
+    H1, H2 { color: green }
+  </STYLE>
+  <BODY>
+    <H1>Bach's home page</H1>
+    <P>Johann Sebastian Bach was a prolific
+        composer. Among his works are:
+    <OL>
+      <LI>the Goldberg Variations
+      <LI>the Brandenburg Concertos
+      <LI>the Christmas Oratorio
+    </oL>
+    <H2>Historical perspective</H2>
+    <P>Bach composed in what has been referred to as
+      the Baroque period.
+  </BODY>
+</HTML>
+
+CSS Pseudo-classes
+--------------------------------
+
+What are Pseudo-classes?
+
+* A pseudo-class is used to define a special state of an element.
+
+* Pseudo-classes can be combined with CSS classes:
+
+For example, it can be used to:
+
+Style an element when a user mouses over it
+Style visited and unvisited links differently
+Style an element when it gets focus
+
+
+
+<!--Add different colors to visited/unvisited links -->
+
+
+<html>
+<head>
+<style>
+/* unvisited link */
+a:link {
+    color: #FF0000;
+}
+
+/* visited link */
+a:visited {
+    color: #00FF00;
+}
+
+/* mouse over link */
+a:hover {
+    color: #FF00FF;
+}
+
+/* selected link */
+a:active {
+    color: #0000FF;
+}
+</style>
+</head>
+<body>
+
+<p><b><a href="default.asp" target="_blank">This is a link</a></b></p>
+<p><b>Note:</b> a:hover MUST come after a:link and a:visited in the CSS definition in order to be effective.</p>
+<p><b>Note:</b> a:active MUST come after a:hover in the CSS definition in order to be effective.</p>
+
+</body>
+</html>
+
+Simple Tooltip Hover:
+--------------------------------
+
+Hover over a <div> element to show a <p> element (like a tooltip):
+
+Hover over me to show the <p> element.
+
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+p {
+    display: none;
+    background-color: yellow;
+    padding: 20px;
+}
+
+div:hover p {
+    display: block;
+}
+</style>
+</head>
+<body>
+
+<div>Hover over me to show the p element
+  <p>Shekar ! Here I am!</p>
+</div>
+
+</body>
+</html>
+
+--How to Remove the default underline from hyperlinks
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Example of setting link styles</title>
+  <style type="text/css">  
+    a:link {
+        color: #FF0000;
+        text-decoration: none;
+    }
+    a:visited {
+        color: #00FF00;
+        text-decoration: none;
+    }
+    a:hover {
+        color: #FF00FF;
+        text-decoration: underline;
+    }
+    a:active {
+        color: #0000FF;
+        text-decoration: underline;
+    }
+  </style>
+</head>
+<body>
+  <p><a href="https://www.unisys.com/" target="_top">Visit Tutorial Republic</a></p>
+</body>
+</html>
+
+How to Create link boxes?
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>Example of setting link styles</title>
+<style type="text/css">  
+    a {
+        width: 200px;
+        padding: 5px;
+        color: #ffffff;
+        font-size: 18px;
+        background: #5287a6;
+       display :inline;
+        text-align: center;
+        font-weight: bold;
+        text-decoration: none;
+    }
+    a:hover {
+        background: #36596d;
+    }
+</style>
+</head>
+<body>
+<a href="https://www.unisys.com/" target="_top">Contact</a>
+<a href="https://www.unisys.com/" target="_top">Home</a>
+</body>
+</html>   
+
+CSS Table :
+-----------
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Example of setting table border</title>
+    <style type="text/css">
+        table {
+	width: 300px;
+	border-collapse: collapse;            
+		}
+		table, th, td{
+            text-align: left;
+            border: 1px solid #000000;
+		}
+    </style>
+</head>
+<body>
+    <table>
+        <caption>User Info</caption>
+        <tr>
+            <th>Name</th>
+            <th>Email</th>
+        </tr>
+        <tr>
+            <td>John</td>
+            <td>john@mail.com</td>
+        </tr>
+    </table>
+</body>
+</html>      
+
+How to specify Specify the dimension of a table?
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Example of setting table dimension</title>
+    <style type="text/css">
+        table {
+	width: 300px;
+            text-align: left;
+	}
+    </style>
+</head>
+<body>
+    <table border="1">
+        <caption>User Info</caption>
+        <tr>
+            <th>Name</th>
+            <th>Email</th>
+        </tr>
+        <tr>
+            <td>John</td>
+            <td>john@mail.com</td>
+        </tr>
+    </table>
+</body>
+</html>   
+
+border-collapse:
+---------------------
+
+The border-collapse property sets whether the table borders are collapsed into a single border or detached as in standard HTML. 
+
+example:
+
+border-collapse: separate | collapse;
+                          
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Example of CSS border-collapse property</title>
+    <style type="text/css">
+		table {
+			border-collapse: collapse;
+		}
+		table, th, td {
+			border: 1px solid black;
+		}
+    </style>
+</head>
+<body>
+    <table>
+        <tr>
+            <th>Name</th>
+            <th>Email</th>
+        </tr>
+        <tr>
+            <td>Alax</td>
+            <td>alax@example.com</td>
+        </tr>
+        <tr>
+            <td>Joy</td>
+            <td>joy@example.com</td>
+        </tr>
+    </table>
+	
+</body>
+</html> 
+
+How to setting horizontal alignment of table content?
+------------------------------------------------------                            
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Example of setting horizontal alignment of table content</title>
+    <style type="text/css">
+        table {
+			width: 300px;
+            text-align: middle;
+}
+        table caption {
+            text-align: right;
+        }
+    </style>
+</head>
+<body>
+    <table border="1">
+        <caption>User Info</caption>
+        <tr>
+            <th>Name</th>
+            <th>Email</th>
+        </tr>
+        <tr>
+            <td align=middle>John</td>
+            <td align=middle>john@mail.com</td>
+        </tr>
+    </table>
+</body>
+</html> 
+
+How to setting vertical alignment of table content?
+------------------------------------------------------ 
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Example of setting vertical alignment of table content</title>
+    <style type="text/css">
+        table {
+			width: 300px;
+            text-align: left;
+		}
+        table th, table td {
+            height: 50px;
+        }
+        table th {
+            vertical-align: bottom;
+        }
+        table td {
+            vertical-align: middle;
+        }
+    </style>
+</head>
+<body>
+    <table border="1">
+        <caption>User Info</caption>
+        <tr>
+            <th>Name</th>
+            <th>Email</th>
+        </tr>
+        <tr>
+            <td>John</td>
+            <td>john@mail.com</td>
+        </tr>
+    </table>
+</body>
+</html>             
+
+
+--How to setting padding of table cells?               
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Example of setting padding of table cells</title>
+    <style type="text/css">
+        table {
+            text-align: left;
+		}
+        table th {
+            padding: 10px;
+        }
+        table td {
+            padding: 50px;
+        }
+    </style>
+</head>
+<body>
+    <table border="1">
+        <caption>User Info</caption>
+        <tr>
+            <th>Name</th>
+            <th>Email</th>
+        </tr>
+        <tr>
+            <td>John</td>
+            <td>john@mail.com</td>
+        </tr>
+    </table>
+</body>
+</html>                            
+
+--How to specify CSS Table-layout property?
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>Example of CSS table-layout property</title>
+<style type="text/css">             
+    table {
+        width: 250px;
+        border-collapse: separate;            
+    }
+    table, tr, th, td{
+        border: 1px solid #000000;
+    }
+    .auto {
+        table-layout: auto;
+    }
+    .fixed {
+        table-layout: fixed;
+    }
+    td{
+        width: 50%;
+    }
+</style>
+</head>
+<body>
+    <table class="auto">
+        <caption>Example 1. Auto</caption>
+        <tr>
+            <th>Name</th>
+            <td>John Carter</td>
+        </tr>
+        <tr>
+            <th>Email</th>
+            <td>johncarter@mail.com</td>
+        </tr>
+    </table>
+    <br>
+    <table class="fixed">
+        <caption>Example 2. Fixed</caption>
+        <tr>
+            <th>Name</th>
+            <td>Peter Parker</td>
+        </tr>
+        <tr>
+            <th>Email</th>
+            <td>peterparker@mail.com</td>
+        </tr>
+    </table>
+	<p><strong>Note:</strong> You can see the width of table cell does not change to accommodate the content in fixed table-layout.</p>
+</body>
+</html>       
+
+How to specify CSS Caption-side property?
+
+syntax:
+
+ caption
+        {
+            caption-side:top | bottom 
+        }
+                     
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>Example of CSS caption-side property</title>
+<style type="text/css">
+    table, td, th {
+        border: 1px solid gray;
+    }
+    caption {
+		caption-side: bottom;
+	}
+</style>
+</head>
+<body>
+    <table>
+        <caption>Table 1.0 - User Details</caption>
+        <thead>
+            <tr>
+                <th>No.</th>
+                <th>Name</th>
+                <th>Email</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>1</td>
+                <td>John Carter</td>
+                   <td>johncarter@mail.com</td>
+            </tr>
+            <tr>
+                <td>2</td>
+                <td>Peter Parker</td>
+                <td>peterparker@mail.com</td>
+            </tr>
+            <tr>
+                <td>3</td>
+                <td>John Rambo</td>
+                <td>johnrambo@mail.com</td>
+            </tr>
+        </tbody>
+    </table>
+	<p><strong>Note:</strong> Internet Explorer 8 supports the caption-side property only if a <code>!DOCTYPE</code> is specified.</p>
+</body>
+</html>                            
+
+CSS Background:
+---------------
+
+How to Specify CSS background-color?
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>Example of CSS background-color</title>
+<style type="text/css">
+	body {
+		background-color: #f0e68c;
+	}
+	h1 {
+		background-color: #f08080;
+	}
+	p {
+		background-color: #90ee90;
+	}
+</style>
+</head>
+<body>
+    <h1>This is a heading</h1>
+    <p>This is a paragraph.</p>
+</body>
+</html>  
+
+--How to specify Css background-image?
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Example of CSS background-image</title>
+  <style type="text/css">
+    body {
+        background-image: url("/examples/images/leaf.jpg");
+    }
+  </style>
+</head>
+<body>
+  <h1>This is a heading</h1>
+  <p>This is a paragraph.</p>
+</body>
+</html> 
+
+--How to specify CSS background-repeat property?                             
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Example of CSS background-repeat</title>
+  <style type="text/css">
+    body {
+        background-image: url("/examples/images/gradient.png");
+        background-repeat: repeat-x;
+    }
+  </style>
+</head>
+<body>
+    <h1>This is a heading</h1>
+    <p>This is a paragraph.</p>
+</body>
+</html>  
+                        
+
+line-height “line-height” property
+
+• This property specifies height of the line of text.
+
+• Syntax: line-height: pixels;
+
+• Example: line-height: 10px;
+
+Example of “line-height” property
+
+<html>
+<head>
+<title>CSS - Line-height</title>
+<style type="text/css">
+body
+{
+font-family: 'Tahoma';
+font-size: 24px;
+}
+#p1
+{
+line-height: normal;
+color: red;
+}
+#p2
+{
+line-height: 12px;
+color: green;
+}
+#p3
+{
+line-height: 50px;
+color: blue;
+}
+</style>
+</head>
+<body>
+<p id="p1">para 1. You can find more information about how Google uses and stores content in the privacy policy or additional terms for particular Services. You can find more information about how Google uses
+and stores content in the privacy policy or additional terms for particular Services. You can find more information about how Google uses and stores content in the privacy policy or additional terms for particular Services.</p>
+<p id="p2">para 2. You can find more information about how Google uses and stores content in the privacy policy or additional terms for particular Services. You can find more information about how Google uses and stores content in the privacy policy or additional terms for particular Services. You can find more information about how Google uses and stores content in the privacy policy or additional terms for particular Services.</p>
+<p id="p3">para 3. You can find more information about how Google uses and stores content in the privacy policy or additional terms for particular Services. You can find more information about how Google uses and stores content in the privacy policy or additional terms for particular Services. You can find more information about how Google uses and stores content in the privacy policy or additional terms for particular Services.</p>
+</body>
+</html>
+
+text-decoration “text-decoration” property
+
+• This property specifies underline / overline / strikeout for the text.
+
+• Syntax: text-decoration: none | underline | overline | line-through;
+
+• Example: text-decoration: underline;
+
+Example of “text-decoration” property
+<html>
+<head>
+<title>CSS - Text-decoration</title>
+<style type="text/css">
+body
+{
+font-family: 'Tahoma';
+font-size: 24px;
+}
+#p1
+{
+text-decoration: none;
+color: red;
+}
+#p2
+{
+text-decoration: underline;
+color: green;
+}
+#p3
+{
+text-decoration: overline;
+color: blue;
+}
+#p4
+{
+text-decoration: line-through;
+color: hotpink;
+}
+</style>
+</head>
+<body>
+<p id="p1">para 1. You can find more information about how Google uses and stores content in the privacy policy or additional terms for particular Services. You can find more information about how Google uses and stores content in the privacy policy or additional terms for particular Services. You can find more information about how Google uses and stores content in the privacy policy or additional terms for particular Services.</p>
+<p id="p2">para 2. You can find more information about how Google uses and stores content in the privacy policy or additional terms for particular Services. You can find more information about how Google uses and stores content in the privacy policy or additional terms for particular Services. You can find more information about how Google uses and stores content in the privacy policy or additional terms for particular Services.</p>
+<p id="p3">para 3. You can find more information about how Google uses and stores content in the privacy policy or additional terms for particular Services. You can find more information about how Google uses and stores content in the privacy policy or additional terms for particular Services. You can find more information about how Google uses and stores content in the privacy policy or additional terms for particular Services.</p>
+<p id="p4">para 4. You can find more information about how Google uses and stores content in the privacy policy or additional terms for particular Services. You can find more information about how Google uses and stores content in the privacy policy or additional terms for particular Services. You can find more information about how Google uses and stores content in the privacy policy or additional terms for particular Services.</p>
+</body>
+</html>
+
+text-transform “text-transform” property
+
+• This property specifies uppercase / lowercase / titlecase for the text.
+
+• Syntax: text-transform: none | uppercase | lowercase | capitalize;
+
+• Example: text-transform: underline;
+
+Example of “text-transform” property
+
+<html>
+<head>
+<title>CSS - Text-transform</title>
+<style type="text/css">
+body
+{
+font-family: 'Tahoma';
+font-size: 24px;
+}
+#p1
+{
+text-transform: none;
+color: red;
+}
+#p2
+{
+text-transform: uppercase;
+color: green;
+}
+#p3
+{
+text-transform: lowercase;
+color: blue;
+}
+#p4
+{
+text-transform: capitalize;
+color: hotpink;
+}
+</style>
+</head>
+<body>
+<p id="p1">para 1. You can find more information about how Google uses and stores content in the privacy policy or additional terms for particular Services. You can find more information about how Google uses and stores content in the privacy policy or additional terms for particular Services. You can find more information about how Google uses and stores content in the privacy policy or additional terms for particular Services.</p>
+<p id="p2">para 2. You can find more information about how Google uses and stores content in the privacy policy or additional terms for particular Services. You can find more information about how Google uses and stores content in the privacy policy or additional terms for particular Services. You can find more information about how Google uses and stores content in the privacy policy or additional terms for particular Services.</p>
+<p id="p3">para 3. You can find more information about how Google uses and stores content in the privacy policy or additional terms for particular Services. You can find more information about how Google uses and stores content in the privacy policy or additional terms for particular Services. You can find more information about how Google uses and stores content in the privacy policy or additional terms for particular Services.</p>
+<p id="p4">para 4. You can find more information about how Google uses and stores content in the privacy policy or additional terms for particular Services. You can find more information about how Google uses and stores content in the privacy policy or additional terms for particular Services. You can find more information about how Google uses and stores content in the privacy policy or additional terms for particular Services.</p>
+</body>
+</html>
+
+text-align “text-align” property
+
+• This property specifies alignment for the text.
+
+• Syntax: text-align: left | right | center | justify;
+
+• Example: text-align: left;
+
+Example of “text-align” property
+
+<html>
+<head>
+<title>CSS - Text-align</title>
+<style type="text/css">
+body
+{
+font-family: 'Tahoma';
+font-size: 24px;
+}
+#p1
+{
+text-align: left;
+color: red;
+}
+#p2
+{
+text-align: right;
+color: green;
+}
+#p3
+{
+text-align: center;
+color: blue;
+}
+#p4
+{
+text-align: justify;
+color: hotpink;
+}
+</style>
+</head>
+<body>
+<p id="p1">para 1. You can find more information about how Google uses and stores content in the privacy policy or additional terms for particular Services. You can find more information about how Google uses and stores content in the privacy policy or additional terms for particular Services. You can find more information about how Google uses and stores content in the privacy policy or additional terms for particular Services.</p>
+<p id="p2">para 2. You can find more information about how Google uses and stores content in the privacy policy or additional terms for particular Services. You can find more information about how Google uses and stores content in the privacy policy or additional terms for particular Services. You can find more information about how Google uses and stores content in the privacy policy or additional terms for particular Services.</p>
+<p id="p3">para 3. You can find more information about how Google uses and stores content in the privacy policy or additional terms for particular Services. You can find more information about how Google uses and stores content in the privacy policy or additional terms for particular Services. You can find more information about how Google uses and stores content in the privacy policy or additional terms for particular Services.</p>
+<p id="p4">para 4. You can find more information about how Google uses and stores content in the privacy policy or additional terms for particular Services. You can find more information about how Google uses and stores content in the privacy policy or additional terms for particular Services. You can find more information about how Google uses and stores content in the privacy policy or additional terms for particular Services.</p>
+</body>
+</html>
+
+text-indent “text-indent” property
+
+• This property specifies left margin for the first line of the paragraph.
+
+• Syntax: text-indent: pixels;
+
+• Example: text-indent: 10px;
+
+Example of “text-indent” property
+<html>
+<head>
+<title>CSS - Text-indent</title>
+<style type="text/css">
+body
+{
+font-family: 'Tahoma';
+font-size: 24px;
+}
+#p1
+{
+text-indent: 0px;
+color: red;
+}
+#p2
+{
+text-indent: 20px;
+color: green;
+}
+#p3
+{
+text-indent: 40px;
+color: blue;
+}
+#p4
+{
+text-indent: 60px;
+color: hotpink;
+}
+</style>
+</head>
+<body>
+<p id="p1">para 1. You can find more information about how Google uses and stores content in the privacy policy or additional terms for particular Services. You can find more information about how Google uses and stores content in the privacy policy or additional terms for particular Services. You can find more information about how Google uses and stores content in the privacy policy or additional terms for particular Services.</p>
+<p id="p2">para 2. You can find more information about how Google uses and stores content in the privacy policy or additional terms for particular Services. You can find more information about how Google uses and stores content in the privacy policy or additional terms for particular Services. You can find more information about how Google uses and stores content in the privacy policy or additional terms for particular Services.</p>
+<p id="p3">para 3. You can find more information about how Google uses and stores content in the privacy policy or additional terms for particular Services. You can find more information about how Google uses and stores content in the privacy policy or additional terms for particular Services. You can find more information about how Google uses and stores content in the privacy policy or additional terms for particular Services.</p>
+<p id="p4">para 4. You can find more information about how Google uses and stores content in the privacy policy or additional terms for particular Services. You can find more information about how Google uses and stores content in the privacy policy or additional terms for particular Services. You can find more information about how Google uses and stores content in the privacy policy or additional terms for particular Services.</p>
+</body>
+</html>
+
+CSS Border Properties:
+---------------------
+
+The CSS border properties allow you to specify the style, width, and color of an element's border.
+
+
+
+Border Style
+The border-style property specifies what kind of border to display.
+
+The following values are allowed:
+
+dotted - Defines a dotted border
+dashed - Defines a dashed border
+solid - Defines a solid border
+double - Defines a double border
+groove - Defines a 3D grooved border. The effect depends on the border-color value
+ridge - Defines a 3D ridged border. The effect depends on the border-color value
+inset - Defines a 3D inset border. The effect depends on the border-color value
+outset - Defines a 3D outset border. The effect depends on the border-color value
+none - Defines no border
+hidden - Defines a hidden border
+mix - mixing border
+--Example
+
+<html>
+<head>
+<style>
+p.dotted {border-style: dotted;}
+p.dashed {border-style: dashed;}
+p.solid {border-style: solid;}
+p.double {border-style: double;}
+p.groove {border-style: groove;}
+p.ridge {border-style: ridge;}
+p.inset {border-style: inset;}
+p.outset {border-style: outset;}
+p.none {border-style: none;}
+p.hidden {border-style: hidden;}
+p.mix {border-style: dotted dashed solid double;}
+</style>
+</head>
+<body>
+
+<h2>The border-style Property</h2>
+<p>This property specifies what kind of border to display:</p>
+
+<p class="dotted">A dotted border.</p>
+<p class="dashed">A dashed border.</p>
+<p class="solid">A solid border.</p>
+<p class="double">A double border.</p>
+<p class="groove">A groove border.</p>
+<p class="ridge">A ridge border.</p>
+<p class="inset">An inset border.</p>
+<p class="outset">An outset border.</p>
+<p class="none">No border.</p>
+<p class="hidden">A hidden border.</p>
+<p class="mix">A mixed border.</p>
+
+</body>
+</html>
+
+
+
+CSS Margins:
+-------------
+
+The CSS margin properties are used to generate space around elements.
+
+The margin properties set the size of the white space outside the border.
+
+With CSS, you have full control over the margins. There are CSS properties for setting the margin for each side of an element (top, right, bottom, and left).
+
+Margin - Individual Sides
+CSS has properties for specifying the margin for each side of an element:
+
+margin-top
+margin-right
+margin-bottom
+margin-left
+
+--example
+
+<html>
+<head>
+<style>
+div {
+    border: 1px solid black;
+    margin-top: 100px;
+    margin-bottom: 100px;
+    margin-right: 150px;
+    margin-left: 80px;
+    background-color: lightblue;
+}
+</style>
+</head>
+<body>
+
+<h2>Using individual margin properties</h2>
+
+<div>This div element has a top margin of 100px, a right margin of 150px, a bottom margin of 100px, and a left margin of 80px.</div>
+
+</body>
+</html>
+
+<Table cellspacing=10 cellpadding=100>
+
+cellspacing -> space between two cells.
+cellpadding -> space between border and contents of the cell.
+
+
+
+CSS Padding:
+-----------
+
+The CSS padding properties are used to generate space around content.
+
+The padding clears an area around the content (inside the border) of an element.
+
+With CSS, you have full control over the padding. There are CSS properties for setting the padding for each side of an element (top, right, bottom, and left).
+
+Padding - Individual Sides
+CSS has properties for specifying the padding for each side of an element:
+
+padding-top
+padding-right
+padding-bottom
+padding-left
+
+--Example
+
+
+<html>
+<head>
+<style>
+div {
+    border: 1px solid black;
+    background-color: lightblue;
+    padding-top: 50px;
+    padding-right: 30px;
+    padding-bottom: 50px;
+    padding-left: 80px;
+}
+</style>
+</head>
+<body>
+
+<h2>Using individual padding properties</h2>
+
+<div>This div element has a top padding of 50px, a right padding of 30px, a bottom padding of 50px, and a left padding of 80px.</div>
+
+</body>
+</html>
+
+--example
+
+<html>
+<head>
+<style>
+div {
+    border: 1px solid black;
+    background-color: lightblue;
+    padding-top: 50px;
+    padding-right: 30px;
+    padding-bottom: 50px;
+    padding-left: 80px;
+}
+</style>
+</head>
+<body>
+
+<h2>Using individual padding properties</h2>
+
+<div>This div element has a top padding of 50px, a right padding of 30px, a bottom padding of 50px, and a left padding of 80px.</div>
+
+</body>
+</html>
+
+
+CSS Opacity:
+-------------
+
+
+The opacity property sets the opacity level for an element.
+
+The opacity-level describes the transparency-level, where 1 is not transparent at all, 0.5 is 50% see-through, and 0 is completely transparent.
+
+
+
+<html>
+<head>
+<style>
+div {
+    background-color: #4CAF50;
+    padding: 10px;
+}
+
+div.first {
+    opacity: 0.1;
+    filter: alpha(opacity=30); 
+}
+
+div.second {
+    opacity: 0.3;
+filter: alpha(opacity=30); 
+    
+}
+
+div.third {
+    opacity: 0.6;
+    filter: alpha(opacity=60); 
+</style>
+</head>
+<body>
+
+<h1>Transparent Box</h1>
+<p>When using the opacity property to add transparency to the background of an element, all of its child elements become transparent as well. This can make the text inside a fully transparent element hard to read:</p>
+
+<div class="first"><p>opacity 1</p></div>
+<div class="second"><p>opacity 0.3</p></div>
+<div class="third"><p>opacity 0.6</p></div>
+<div><p>opacity 1 (default)</p></div>
+
+</body>
+</html>
+
+--example 2
+
+<html>
+<head>
+<style>
+div.background {
+  background: url(klematis.jpg) repeat;
+  border: 2px solid black;
+}
+
+div.transbox {
+  margin: 30px;
+  background-color: #ffffff;
+  border: 1px solid black;
+  opacity: 0.5;
+  filter: alpha(opacity=60); /* For IE8 and earlier */
+}
+
+div.transbox p {
+  margin: 5%;
+  font-weight: bold;
+  color: #000000;
+}
+</style>
+</head>
+<body>
+
+<div class="background">
+  <div class="transbox">
+    <p>This is some text that is placed in the transparent box.</p>
+  </div>
+</div>
+
+</body>
+</html>
+
+
+
+background-image “background-image” property
+
+• This property specifies background image of the element.
+
+• Syntax: background-image: url(“filename.extension”);
+
+• Example: background-image: url(“sample.png”);
+
+Example of “background-image” property
+
+<html>
+<head>
+<title>CSS - Background-image</title>
+<style type="text/css">
+body
+{
+font-family: 'Tahoma';
+font-size: 24px;
+}
+#p1
+{
+background-color: skyblue;
+background-image: url('sample.png');
+}
+</style>
+</head>
+<body>
+<p id="p1">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum. Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum. Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum. Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p>
+</body>
+</html>
+
+Note: Place “sample.png” in the current folder.
+
+background-repeat “background-repeat” property
+
+• This property specifies repeat mode of the background image.
+
+• Syntax: background-repeat: repeat | no-repeat | repeat-x | repeat-y;
+
+• Example: background-repeat: no-repeat;
+
+Example of “background-repeat” – “no-repeat”:
+
+<html>
+<head>
+<title>CSS - No-repeat</title>
+<style type="text/css">
+body
+{
+font-family: 'Tahoma';
+font-size: 24px;
+}
+#p1
+{
+background-color: skyblue;
+background-image: url('sample.png');
+background-repeat: no-repeat;
+}
+</style>
+</head>
+<body>
+<p id="p1">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged.</p>
+</body>
+</html>
+
+Note: Place “sample.png” in the current folder.
+
+Example of “background-repeat” – “repeat-x”:
+
+<html>
+<head>
+<title>CSS - Repeat-x</title>
+<style type="text/css">
+body
+{
+font-family: 'Tahoma';
+font-size: 24px;
+}
+#p1
+{
+background-color: skyblue;
+background-image: url('sample.png');
+background-repeat: repeat-x;
+}
+</style>
+</head>
+<body>
+<p id="p1">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged.</p>
+</body>
+</html>
+Note: Place “sample.png” in the current folder.
+
+Example of “background-repeat” – “repeat-y”:
+<html>
+<head>
+<title>CSS - Repeat-y</title>
+<style type="text/css">
+body
+{
+font-family: 'Tahoma';
+font-size: 24px;
+}
+#p1
+{
+background-color: skyblue;
+background-image: url('sample.png');
+background-repeat: repeat-y;
+}
+</style>
+</head>
+<body>
+<p id="p1">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged.</p>
+</body>
+</html>
+Note: Place “sample.png” in the current folder.
+
+background-position “background-position” property
+
+• This property specifies position of the background image.
+
+• Syntax: background-position: top left | top center | top right |
+center left | center center | center right | bottom left |
+bottom center | bottom right;
+
+• Example: background-position: top center;
+
+• The “background-position” property will be useful only when “background-
+repeat” is set to “no-repeat”.
+
+Example of “background-position” property
+
+<html>
+<head>
+<title>CSS - Background-position</title>
+<style type="text/css">
+body
+{
+font-family: 'Tahoma';
+font-size: 24px;
+}
+#p1
+{
+background-color: skyblue;
+background-image: url('sample.png');
+background-repeat: no-repeat;
+background-position: bottom center;
+text-align: justify;
+}
+</style>
+</head>
+<body>
+<p id="p1">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of
+Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum. Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum. Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum. Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p>
+</body>
+</html>
+Note: Place “sample.png” in the current folder.
+
+background-attachment “background-attachment” property
+
+• This property specifies whether the background image should be scrolled along with the text, when the user uses the scrollings the web page.
+
+• Syntax: background-attachment: scroll | fixed;
+
+• Example: background-attachment: scroll;
+
+• scroll: “background image” will be scrolled along with the text.
+
+• fixed: “background image” will not be scrolled along with the text.
+
+Example of “background-attachment” property
+
+<html>
+<head>
+<title>CSS - Background-attachment</title>
+<style type="text/css">
+body
+{
+font-family: 'Tahoma';
+font-size: 24px;
+}
+body
+{
+background-color: skyblue;
+background-image: url("trees.jpg");
+background-attachment: fixed;
+}
+</style>
+</head>
+<body>
+<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of
+Lorem Ipsum. Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum. Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum. </p>
+</body>
+</html>
+Note: Place “trees.jpg” in the current folder.
+
+list-style-type for <ul> “list-style-type” property for <ul>
+
+• This property specifies type of the bullet for the <ul> tag.
+
+• Syntax: list-style-type: none | disc | square | circle;
+
+• Example: list-style-type: disc;
+
+Example of “list-style-type” property for <ul>:
+<html>
+<head>
+<title>CSS - List-style-type - UL</title>
+<style type="text/css">
+body
+{
+font-family: 'Tahoma';
+font-size: 30px;
+}
+#list1
+{
+list-style-type: disc;
+}
+#list2
+{
+list-style-type: square;
+}
+#list3
+{
+list-style-type: circle;
+}
+#list4
+{
+list-style-type: none;
+}
+</style>
+</head>
+<body>
+<h2>UL - disc</h2>
+<ul id="list1">
+<li>Google Chrome</li>
+<li>Mozilla Firefox</li>
+<li>Internet Explorer</li>
+<li>Safari</li>
+<li>Opera</li>
+</ul>
+<h2>UL - square</h2>
+<ul id="list2">
+<li>Google Chrome</li>
+<li>Mozilla Firefox</li>
+<li>Internet Explorer</li>
+<li>Safari</li>
+<li>Opera</li>
+</ul>
+<h2>UL - circle</h2>
+<ul id="list3">
+<li>Google Chrome</li>
+<li>Mozilla Firefox</li>
+<li>Internet Explorer</li>
+<li>Safari</li>
+<li>Opera</li>
+</ul>
+<h2>UL - none</h2>
+<ul id="list4">
+<li>Google Chrome</li>
+<li>Mozilla Firefox</li>
+<li>Internet Explorer</li>
+<li>Safari</li>
+<li>Opera</li>
+</ul>
+</body>
+</html>
+
+list-style-type for <ol> “list-style-type” property for <ol>
+
+• This property specifies type of numbering for the <ol> tag.
+
+• Syntax: list-style-type: none | decimal | decimal-leading-zero |
+lower-alpha | upper-alpha | lower-roman | upper-roman |
+lower-greek;
+
+• Example: list-style-type: decimal;
+
+Example of “list-style-type” property for <ol>:
+
+<html>
+<head>
+<title>CSS - List-style-type - OL</title>
+<style type="text/css">
+body
+{
+font-family: 'Tahoma';
+}
+#list1
+{
+list-style-type: decimal;
+}
+#list2
+{
+list-style-type: decimal-leading-zero;
+}
+#list3
+{
+list-style-type: lower-alpha;
+}
+#list4
+{
+list-style-type: upper-alpha;
+}
+#list5
+{
+list-style-type: lower-roman;
+}
+#list6
+{
+list-style-type: upper-roman;
+}
+#list7
+{
+list-style-type: lower-greek;
+}
+#list8
+{
+list-style-type: none;
+}
+</style>
+</head>
+<body>
+<h2>OL - decimal</h2>
+<ol id="list1">
+<li>Google Chrome</li>
+<li>Mozilla Firefox</li>
+<li>Internet Explorer</li>
+<li>Safari</li>
+<li>Opera</li>
+</ol>
+<h2>OL - decimal-leading-zero</h2>
+<ol id="list2">
+<li>Google Chrome</li>
+<li>Mozilla Firefox</li>
+<li>Internet Explorer</li>
+<li>Safari</li>
+<li>Opera</li>
+</ol>
+<h2>OL - lower-alpha</h2>
+<ol id="list3">
+<li>Google Chrome</li>
+<li>Mozilla Firefox</li>
+<li>Internet Explorer</li>
+<li>Safari</li>
+<li>Opera</li>
+</ol>
+<h2>OL - upper-alpha</h2>
+<ol id="list4">
+<li>Google Chrome</li>
+<li>Mozilla Firefox</li>
+<li>Internet Explorer</li>
+<li>Safari</li>
+<li>Opera</li>
+</ol>
+<h2>OL - lower-roman</h2>
+<ol id="list5">
+<li>Google Chrome</li>
+<li>Mozilla Firefox</li>
+<li>Internet Explorer</li>
+<li>Safari</li>
+<li>Opera</li>
+</ol>
+<h2>OL - upper-roman</h2>
+<ol id="list6">
+<li>Google Chrome</li>
+<li>Mozilla Firefox</li>
+<li>Internet Explorer</li>
+<li>Safari</li>
+<li>Opera</li>
+</ol>
+<h2>OL - lower-greek</h2>
+<ol id="list7">
+<li>Google Chrome</li>
+<li>Mozilla Firefox</li>
+<li>Internet Explorer</li>
+<li>Safari</li>
+<li>Opera</li>
+</ol>
+<h2>OL - none</h2>
+<ol id="list8">
+<li>Google Chrome</li>
+<li>Mozilla Firefox</li>
+<li>Internet Explorer</li>
+<li>Safari</li>
+<li>Opera</li>
+</ol>
+</body>
+</html>
+
+list-style-image “list-style-image” property
+
+• This property specifies bullet image file path for the list.
+
+• Syntax: list-style-image: url(“filename.extension”);
+
+• Example: list-style-image: url(“tick.gif”);
+
+Example of “list-style-image” property:
+
+<html>
+<head>
+<title>CSS - List-style-image</title>
+<style type="text/css">
+body
+{
+font-family: 'Tahoma';
+font-size: 24px;
+}
+#list1
+{
+list-style-image: url("tick.gif");
+}
+</style>
+</head>
+<body>
+Top most browsers:
+<ul id="list1">
+<li>Google Chrome</li>
+<li>Mozilla Firefox</li>
+<li>Internet Explorer</li>
+<li>Safari</li>
+<li>Opera</li>
+</ul>
+</body>
+</html>
+
+Note: Place “tick.gif” in the current folder.
+
+<div> tag <div> tag
+
+• <div> is the most important tag of html.
+
+• <div> tag represents a division (part) of the page.
+
+• <div> is a container, in which you can place any other elements.
+
+• A web page can have any no. of <div> tags.
+
+• A <div> tag can be placed in another <div> tag also.
+
+• <div> is a paired tag.
+
+• <div> is a block level element. That means it occupies 100% of the width, by default. So the content next to the <div> tag, appears in the next line.
+
+• Syntax: <div> any content </div>
+
+• Example: <div> Hello </div>
+
+Example of <div> tag:
+<html>
+<head>
+<title>CSS - Div</title>
+<style type="text/css">
+body
+{
+font-family: 'Tahoma';
+font-size: 24px;
+}
+#div1
+{
+background-color: #00ffcc;
+}
+#div2
+{
+background-color: #ff3366;
+}
+#div3
+{
+background-color: #00ccff;
+}
+</style>
+</head>
+<body>
+<div id="div1">div 1</div>
+<div id="div2">div 2</div>
+<div id="div3">div 3</div>
+</body>
+</html>
+
+“width” and “height” properties “width” property
+
+• This property specifies horizontal size of the element.
+
+• Syntax: width: pixels;
+
+• Example: width: 200px;
+“height” property
+
+• This property specifies vertical size of the element.
+
+• Syntax: height: pixels;
+
+• Example: height: 100px;
+
+Example of “width” and “height” properties:
+<html>
+<head>
+<title>CSS - Width and Height</title>
+<style type="text/css">
+body
+{
+font-family: 'Tahoma';
+font-size: 24px;
+}
+#div1
+{
+background-color: #00ffcc;
+width: 300px;
+height: 300px;
+}
+#div2
+{
+background-color: #ff3366;
+width: 300px;
+height: 300px;
+}
+#div3
+{
+background-color: #00ccff;
+width: 300px;
+height: 300px;
+}
+</style>
+</head>
+<body>
+<div id="div1">div 1</div>
+<div id="div2">div 2</div>
+<div id="div3">div 3</div>
+</body>
+</html>
+
+float “float” property
+
+• This property displays the elements side-by-side.
+
+• Syntax: float: left | right;
+
+• Example: float: left;
+
+Example of “float – left”:
+
+<html>
+<head>
+<title>CSS - Float=Left</title>
+<style type="text/css">
+body
+{
+font-family: 'Tahoma';
+font-size: 24px;
+}
+#div1
+{
+background-color: #00ffcc;
+width: 300px;
+height: 300px;
+float: left;
+}
+#div2
+{
+background-color: #ff3366;
+width: 300px;
+height: 300px;
+float: left;
+}
+#div3
+{
+background-color: #00ccff;
+width: 300px;
+height: 300px;
+float: left;
+}
+</style>
+</head>
+<body>
+<div id="div1">div 1</div>
+<div id="div2">div 2</div>
+<div id="div3">div 3</div>
+</body>
+</html>
+Example of “float – right”:
+<html>
+<head>
+<title>CSS - Float=Right</title>
+<style type="text/css">
+body
+{
+font-family: 'Tahoma';
+font-size: 24px;
+}
+#div1
+{
+background-color: #00ffcc;
+width: 300px;
+height: 300px;
+float: right;
+}
+#div2
+{
+background-color: #ff3366;
+width: 300px;
+height: 300px;
+float: right;
+}
+#div3
+{
+background-color: #00ccff;
+width: 300px;
+height: 300px;
+float: right;
+}
+</style>
+</head>
+<body>
+<div id="div1">div 1</div>
+<div id="div2">div 2</div>
+<div id="div3">div 3</div>
+</body>
+</html>
+
+clear “clear” property
+
+• This property cancels the effect of “float” and push the current element to next line.
+
+• It stops the sequence of “float”.
+
+• Top stop “float:left” sequence, we use “clear:left”.
+
+• Top stop “float:right” sequence, we use “clear:right”.
+
+• Syntax: clear: left | right;
+
+• Example: clear: left;
+
+Example of “clear – left”:
+
+<html>
+<head>
+<title>CSS - Clear=left</title>
+<style type="text/css">
+body
+{
+font-family: 'Tahoma';
+font-size: 24px;
+}
+#div1
+{
+background-color: #00ffcc;
+width: 300px;
+height: 300px;
+float: left;
+}
+#div2
+{
+background-color: #ff3366;
+width: 300px;
+height: 300px;
+float: left;
+}
+#div3
+{
+background-color: #00ccff;
+width: 300px;
+height: 300px;
+clear: left;
+}
+</style>
+</head>
+<body>
+<div id="div1">div 1</div>
+<div id="div2">div 2</div>
+<div id="div3">div 3</div>
+</body>
+</html>
+
+border-style, border-width, border-color “border-style” property
+
+• This property specifies type of the border, around the element.
+
+• Syntax: border-style: none | solid | dotted | dashed | double | inset |
+outset | ridge | groove;
+
+• Example: border-style: solid;
+
+“border-width” property
+
+• This property specifies thickness of the border.
+
+• Syntax: border-width: pixels;
+
+• Example: border-width: 5px;
+
+“border-color” property
+
+• This property specifies color of the border.
+
+• Syntax: border-color: any color;
+
+• Example: border-style: red;
+
+Example of “border-style”, “border-width”, “border-color”:
+
+<html>
+<head>
+<title>CSS - Border</title>
+<style type="text/css">
+body
+{
+font-family: 'Tahoma';
+font-size: 24px;
+}
+#div1
+{
+background-color: #00ffcc;
+width: 300px;
+height: 300px;
+float: left;
+border-style: solid; /* none | solid | double | dotted | dashed | groove | inset | outset */
+border-width: 5px;
+border-color: red;
+}
+#div2
+{
+background-color: #cc33ff;
+width: 300px;
+height: 300px;
+float: left;
+border-style: dotted;
+border-width: 5px;
+border-color: green;
+}
+#div3
+{
+background-color: #00ccff;
+width: 300px;
+height: 300px;
+float: left;
+border-style: dashed;
+border-width: 5px;
+border-color: blue;
+}
+</style>
+</head>
+<body>
+<div id="div1">Lorem Ipsum is simply dummy text of the printing and typesetting industry.</div>
+<div id="div2">Lorem Ipsum is simply dummy text of the printing and typesetting industry.</div>
+<div id="div3">Lorem Ipsum is simply dummy text of the printing and typesetting industry.</div>
+</body>
+</html>
+
+border - shortcut “border” property
+
+• This property specifies border width, border style and border color, at-a-time, in shortcut way.
+
+• Syntax: border: borderwidth borderstyle bordercolor;
+
+• Example: border: 5px solid red;
+
+Example of “border” property:
+
+<html>
+<head>
+<title>CSS - Border - shortcut</title>
+<style type="text/css">
+body
+{
+font-family: 'Tahoma';
+font-size: 24px;
+}
+#div1
+{
+background-color: #00ffcc;
+width: 300px;
+height: 300px;
+float: left;
+border: 5px solid red;
+}
+#div2
+{
+background-color: #ccccff;
+width: 300px;
+height: 300px;
+float: left;
+border: 5px dotted green;
+}
+#div3
+{
+background-color: #00ccff;
+width: 300px;
+height: 300px;
+float: left;
+border: 5px dashed blue;
+}
+</style>
+</head>
+<body>
+<div id="div1">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</div>
+<div id="div2">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</div>
+<div id="div3">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</div>
+</body>
+</html>
+
+border - sides “border-top” property
+
+• This property specifies border width, border style and border color for top side only.
+
+• Syntax: border-top: borderwidth borderstyle bordercolor;
+
+• Example: border-top: 5px solid red;
+
+“border-right” property
+
+• This property specifies border width, border style and border color for right side only.
+
+• Syntax: border-right: borderwidth borderstyle bordercolor;
+
+• Example: border-right: 5px solid red;
+
+“border-bottom” property
+
+• This property specifies border width, border style and border color for bottom side only.
+
+• Syntax: border-bottom: borderwidth borderstyle bordercolor;
+
+• Example: border-bottom: 5px solid red;
+“border-left” property
+
+• This property specifies border width, border style and border color for left side only.
+
+• Syntax: border-left: borderwidth borderstyle bordercolor;
+
+• Example: border-left: 5px solid red;
+
+Example of “border - sides” property:
+<html>
+<head>
+<title>border-sides</title>
+<style type="text/css">
+div
+{
+font-size: 35px;
+font-family: Tahoma;
+}
+#div1
+{
+background-color: #0099ff;
+width: 300px;
+height: 100px;
+border-left: 10px solid red;
+border-top: 10px solid red;
+}
+#div2
+{
+background-color: #ff6699;
+width: 300px;
+height: 100px;
+border-top: 10px solid green;
+border-right: 10px solid green;
+}
+#div3
+{
+background-color: #ccff99;
+width: 300px;
+height: 100px;
+border-top: 10px solid darkblue;
+border-bottom: 10px solid darkblue;
+}
+</style>
+</head>
+<body>
+<div id="div1">div 1</div>
+<div id="div2">div 2</div>
+<div id="div3">div 3</div>
+</body>
+</html>
+
+margin “margin” property
+
+• This property specifies the margin (gap) between element to element, surrounding the element.
+
+• Syntax: margin: pixels;
+
+• Example: margin: 10px;
+
+Example of “margin” property:
+
+<html>
+<head>
+<title>CSS - Margin</title>
+<style type="text/css">
+body
+{
+font-family: 'Tahoma';
+font-size: 24px;
+text-align: justify;
+}
+#div1
+{
+background-color: #00ffcc;
+width: 300px;
+height: 300px;
+float: left;
+border: 5px solid red;
+margin: 10px;
+}
+#div2
+{
+background-color: #ff3366;
+width: 300px;
+height: 300px;
+float: left;
+border: 5px solid green;
+margin: 10px;
+}
+#div3
+{
+background-color: #00ccff;
+width: 300px;
+height: 300px;
+float: left;
+border: 5px solid blue;
+margin: 10px;
+}
+</style>
+</head>
+<body>
+<div id="div1">div 1</div>
+<div id="div2">div 2</div>
+<div id="div3">div 3</div>
+</body>
+</html>
+
+margin - sides “margin-top” property
+
+• This property specifies the top margin (gap) between element to element.
+
+• Syntax: margin-top: pixels;
+
+• Example: margin-top: 10px;
+
+“margin-right” property
+
+• This property specifies the right margin (gap) between element to element.
+
+• Syntax: margin-right: pixels;
+
+• Example: margin-right: 10px;
+
+“margin-bottom” property
+
+• This property specifies the bottom margin (gap) between element to element.
+
+• Syntax: margin-bottom: pixels;
+
+• Example: margin-bottom: 10px;
+
+“margin-left” property
+
+• This property specifies the left margin (gap) between element to element.
+
+• Syntax: margin-left: pixels;
+
+• Example: margin-left: 10px;
+
+Example of “margin” property - sides:
+
+<html>
+<head>
+<title>CSS - Margin - separate</title>
+<style type="text/css">
+body
+{
+font-family: 'Tahoma';
+font-size: 24px;
+text-align: justify;
+}
+#div1
+{
+background-color: #00ffcc;
+width: 300px;
+height: 300px;
+float: left;
+border: 5px solid red;
+margin-top: 10px;
+margin-right: 20px;
+margin-bottom: 20px;
+margin-left: 5px;
+}
+#div2
+{
+background-color: #ff3366;
+width: 300px;
+height: 300px;
+float: left;
+border: 5px solid green;
+margin-top: 10px;
+margin-right: 40px;
+margin-bottom: 20px;
+margin-left: 5px;
+}
+#div3
+{
+background-color: #00ccff;
+width: 300px;
+height: 300px;
+float: left;
+border: 5px solid blue;
+margin-top: 10px;
+margin-right: 20px;
+margin-bottom: 20px;
+margin-left: 5px;
+}
+</style>
+</head>
+<body>
+<div id="div1">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</div>
+<div id="div2">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</div>
+<div id="div3">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</div>
+</body>
+</html>
+
+margin - shortcut “margin” property - shortcut
+
+• This property specifies the margin (gap) between element to element, all sides independently at-a-time.
+
+• Syntax: margin: topmargin rightmargin bottommargin leftmargin;
+
+• Example: margin: 10px 5px 15px 30px;
+
+Example of “margin” property - shortcut:
+
+<html>
+<head>
+<title>CSS - Margin - shortcut</title>
+<style type="text/css">
+body
+{
+font-family: 'Tahoma';
+font-size: 24px;
+text-align: justify;
+}
+#div1
+{
+background-color: #00ffcc;
+width: 300px;
+height: 300px;
+float: left;
+border: 5px solid red;
+margin: 10px 20px 20px 5px;
+}
+#div2
+{
+background-color: #ff3366;
+width: 300px;
+height: 300px;
+float: left;
+border: 5px solid green;
+margin: 10px 40px 20px 5px;
+}
+#div3
+{
+background-color: #00ccff;
+width: 300px;
+height: 300px;
+float: left;
+border: 5px solid blue;
+margin: 10px 20px 20px 5px;
+}
+</style>
+</head>
+<body>
+<div id="div1">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</div>
+<div id="div2">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</div>
+<div id="div3">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</div>
+</body>
+</html>
+
+padding “padding” property
+
+• This property specifies the padding (gap) between border and content of the element.
+
+• Syntax: padding: pixels;
+
+• Example: padding: 10px;
+
+Example of “padding” property:
+<html>
+<head>
+<title>CSS - Padding</title>
+<style type="text/css">
+body
+{
+font-family: 'Tahoma';
+font-size: 24px;
+text-align: justify;
+}
+#div1
+{
+background-color: #00ffcc;
+width: 300px;
+height: 300px;
+float: left;
+border: 5px solid red;
+margin: 10px;
+padding: 20px;
+}
+#div2
+{
+background-color: #ff3366;
+width: 300px;
+height: 300px;
+float: left;
+border: 5px solid green;
+margin: 10px;
+padding: 20px;
+}
+#div3
+{
+background-color: #00ccff;
+width: 300px;
+height: 300px;
+float: left;
+border: 5px solid blue;
+margin: 10px;
+padding: 20px;
+}
+</style>
+</head>
+<body>
+<div id="div1">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</div>
+<div id="div2">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</div>
+<div id="div3">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</div>
+</body>
+</html>
+
+padding - sides “padding-top” property
+
+• This property specifies the top padding.
+
+• Syntax: padding-top: pixels;
+
+• Example: padding-top: 10px;
+“padding-right” property
+
+• This property specifies the right padding.
+
+• Syntax: padding-right: pixels;
+
+• Example: padding-right: 10px;
+
+“padding-bottom” property
+
+• This property specifies the bottom padding.
+
+• Syntax: padding-bottom: pixels;
+
+• Example: padding-bottom: 10px;
+
+“padding-left” property
+
+• This property specifies the left padding.
+
+• Syntax: padding-left: pixels;
+
+• Example: padding-left: 10px;
+
+padding - shortcut “padding” property - shortcut
+
+• This property specifies the padding for all sides independently at-a-time.
+
+• Syntax: padding: toppadding rightpadding bottompadding leftpadding;
+
+• Example: padding: 10px 5px 15px 30px
+
+
+CSS Opacity:
+-------------
+
+
+The opacity property sets the opacity level for an element.
+
+The opacity-level describes the transparency-level, where 1 is not transparent at all, 0.5 is 50% see-through, and 0 is completely transparent.
+
+
+
+<html>
+<head>
+<style>
+div {
+    background-color: #4CAF50;
+    padding: 10px;
+}
+
+div.first {
+    opacity: 0.1;
+    filter: alpha(opacity=30); 
+}
+
+div.second {
+    opacity: 0.3;
+filter: alpha(opacity=30); 
+    
+}
+
+div.third {
+    opacity: 0.6;
+    filter: alpha(opacity=60); 
+</style>
+</head>
+<body>
+
+<h1>Transparent Box</h1>
+<p>When using the opacity property to add transparency to the background of an element, all of its child elements become transparent as well. This can make the text inside a fully transparent element hard to read:</p>
+
+<div class="first"><p>opacity 1</p></div>
+<div class="second"><p>opacity 0.3</p></div>
+<div class="third"><p>opacity 0.6</p></div>
+<div><p>opacity 1 (default)</p></div>
+
+</body>
+</html>
+
+
+Css Visibilty:
+----------------------
+
+* The visibility property specifies whether or not an element is visible.
+
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+h1.visible {
+    visibility: visible
+}
+
+h1.hidden {
+    visibility: hidden
+}
+
+</style>
+</head>
+<body>
+
+<h1 class="visible">This is a visible heading</h1>
+<h1 class="hidden">This is an invisible heading</h1>
+<p>Notice that the invisible heading still takes up space.</p>
+
+</body>
+</html>
+
+--How to create Menu Controls using CSS?
+
+<HTML>
+  <TITLE>Bach's home page</TITLE>
+  <STYLE TYPE="text/css">
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: blue;
+}
+
+li {
+    float: right;
+}
+
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+/* Change the link color to #111 (black) on hover */
+li a:hover {
+    background-color: #111;
+}
+  </STYLE>
+  <BODY>
+   <nav>
+<ul>
+<li> <a href="#">Home </a>
+<li> <a href="#">Contact </a>
+<li> <a href="#">About</a>
+<li> <a href="#">Address </a>
+
+  </BODY>
+</HTML>
+
+CSS Layout - inline-block:
+-------------------------------
+
+
+* inline-block elements are like inline elements but they can have a width and a height.
+
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+.floating-box {
+    display: inline-block;
+    width: 150px;
+    height: 75px;
+    margin: 10px;
+    border: 3px solid #73AD21;  
+}
+
+.after-box {
+    border: 3px solid red; 
+}
+</style>
+</head>
+<body>
+
+<h2>The New Way - using inline-block</h2>
+
+<div class="floating-box">Floating box</div>
+<div class="floating-box">Floating box</div>
+<div class="floating-box">Floating box</div>
+<div class="floating-box">Floating box</div>
+<div class="floating-box">Floating box</div>
+<div class="floating-box">Floating box</div>
+<div class="floating-box">Floating box</div>
+<div class="floating-box">Floating box</div>
+
+<div class="after-box">Another box, after the floating boxes...</div>
+
+</body>
+</html>
+
+How to Create link boxes?
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>Example of setting link styles</title>
+<style type="text/css">  
+    a {
+        width: 200px;
+        padding: 5px;
+        color: #ffffff;
+        font-size: 18px;
+        background: #5287a6;
+       display :inline;
+        text-align: center;
+        font-weight: bold;
+        text-decoration: none;
+    }
+    a:hover {
+        background: #36596d;
+    }
+</style>
+</head>
+<body>
+<a href="https://www.unisys.com/" target="_top">Contact</a>
+<a href="https://www.unisys.com/" target="_top">Home</a>
+</body>
+</html>   
+
+CSS Table :
+-----------
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Example of setting table border</title>
+    <style type="text/css">
+        table {
+	width: 300px;
+	border-collapse: collapse;            
+		}
+		table, th, td{
+            text-align: left;
+            border: 1px solid #000000;
+		}
+    </style>
+</head>
+<body>
+    <table>
+        <caption>User Info</caption>
+        <tr>
+            <th>Name</th>
+            <th>Email</th>
+        </tr>
+        <tr>
+            <td>John</td>
+            <td>john@mail.com</td>
+        </tr>
+    </table>
+</body>
+</html>      
+
+How to specify Specify the dimension of a table?
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Example of setting table dimension</title>
+    <style type="text/css">
+        table {
+	width: 300px;
+            text-align: left;
+	}
+    </style>
+</head>
+<body>
+    <table border="1">
+        <caption>User Info</caption>
+        <tr>
+            <th>Name</th>
+            <th>Email</th>
+        </tr>
+        <tr>
+            <td>John</td>
+            <td>john@mail.com</td>
+        </tr>
+    </table>
+</body>
+</html>   
+
+border-collapse:
+---------------------
+
+The border-collapse property sets whether the table borders are collapsed into a single border or detached as in standard HTML. 
+
+example:
+
+border-collapse: separate | collapse;
+                          
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Example of CSS border-collapse property</title>
+    <style type="text/css">
+		table {
+			border-collapse: collapse;
+		}
+		table, th, td {
+			border: 1px solid black;
+		}
+    </style>
+</head>
+<body>
+    <table>
+        <tr>
+            <th>Name</th>
+            <th>Email</th>
+        </tr>
+        <tr>
+            <td>Alax</td>
+            <td>alax@example.com</td>
+        </tr>
+        <tr>
+            <td>Joy</td>
+            <td>joy@example.com</td>
+        </tr>
+    </table>
+	
+</body>
+</html> 
+
+How to setting horizontal alignment of table content?
+------------------------------------------------------                            
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Example of setting horizontal alignment of table content</title>
+    <style type="text/css">
+        table {
+			width: 300px;
+            text-align: middle;
+}
+        table caption {
+            text-align: right;
+        }
+    </style>
+</head>
+<body>
+    <table border="1">
+        <caption>User Info</caption>
+        <tr>
+            <th>Name</th>
+            <th>Email</th>
+        </tr>
+        <tr>
+            <td align=middle>John</td>
+            <td align=middle>john@mail.com</td>
+        </tr>
+    </table>
+</body>
+</html> 
+
+How to setting vertical alignment of table content?
+------------------------------------------------------ 
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Example of setting vertical alignment of table content</title>
+    <style type="text/css">
+        table {
+			width: 300px;
+            text-align: left;
+		}
+        table th, table td {
+            height: 50px;
+        }
+        table th {
+            vertical-align: bottom;
+        }
+        table td {
+            vertical-align: middle;
+        }
+    </style>
+</head>
+<body>
+    <table border="1">
+        <caption>User Info</caption>
+        <tr>
+            <th>Name</th>
+            <th>Email</th>
+        </tr>
+        <tr>
+            <td>John</td>
+            <td>john@mail.com</td>
+        </tr>
+    </table>
+</body>
+</html>             
+
+
+--How to setting padding of table cells?               
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Example of setting padding of table cells</title>
+    <style type="text/css">
+        table {
+            text-align: left;
+		}
+        table th {
+            padding: 10px;
+        }
+        table td {
+            padding: 50px;
+        }
+    </style>
+</head>
+<body>
+    <table border="1">
+        <caption>User Info</caption>
+        <tr>
+            <th>Name</th>
+            <th>Email</th>
+        </tr>
+        <tr>
+            <td>John</td>
+            <td>john@mail.com</td>
+        </tr>
+    </table>
+</body>
+</html>                            
+
+--How to specify CSS Table-layout property?
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>Example of CSS table-layout property</title>
+<style type="text/css">             
+    table {
+        width: 250px;
+        border-collapse: separate;            
+    }
+    table, tr, th, td{
+        border: 1px solid #000000;
+    }
+    .auto {
+        table-layout: auto;
+    }
+    .fixed {
+        table-layout: fixed;
+    }
+    td{
+        width: 50%;
+    }
+</style>
+</head>
+<body>
+    <table class="auto">
+        <caption>Example 1. Auto</caption>
+        <tr>
+            <th>Name</th>
+            <td>John Carter</td>
+        </tr>
+        <tr>
+            <th>Email</th>
+            <td>johncarter@mail.com</td>
+        </tr>
+    </table>
+    <br>
+    <table class="fixed">
+        <caption>Example 2. Fixed</caption>
+        <tr>
+            <th>Name</th>
+            <td>Peter Parker</td>
+        </tr>
+        <tr>
+            <th>Email</th>
+            <td>peterparker@mail.com</td>
+        </tr>
+    </table>
+	<p><strong>Note:</strong> You can see the width of table cell does not change to accommodate the content in fixed table-layout.</p>
+</body>
+</html>       
+
+How to specify CSS Caption-side property?
+
+syntax:
+
+ caption
+        {
+            caption-side:top | bottom 
+        }
+                     
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>Example of CSS caption-side property</title>
+<style type="text/css">
+    table, td, th {
+        border: 1px solid gray;
+    }
+    caption {
+		caption-side: bottom;
+	}
+</style>
+</head>
+<body>
+    <table>
+        <caption>Table 1.0 - User Details</caption>
+        <thead>
+            <tr>
+                <th>No.</th>
+                <th>Name</th>
+                <th>Email</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>1</td>
+                <td>John Carter</td>
+                <td>johncarter@mail.com</td>
+            </tr>
+            <tr>
+                <td>2</td>
+                <td>Peter Parker</td>
+                <td>peterparker@mail.com</td>
+            </tr>
+            <tr>
+                <td>3</td>
+                <td>John Rambo</td>
+                <td>johnrambo@mail.com</td>
+            </tr>
+        </tbody>
+    </table>
+	<p><strong>Note:</strong> Internet Explorer 8 supports the caption-side property only if a <code>!DOCTYPE</code> is specified.</p>
+</body>
+</html>  
+
+CSS Positioning                        :
+---------------
+
+--How to specify CSS Fixed Positioning properties?
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>Example of CSS Fixed Positioning</title>
+<style type="text/css">
+    .box{
+        position: fixed;
+        top: 200px;
+        left: 100px;
+        color: #fff;
+        width: 60%;
+        background: #f44712;
+        padding: 20px;
+    }
+    .container{
+        padding: 50px;
+        margin: 50px;
+        position: relative;
+        border: 5px solid black;
+        font-family: Arial, sans-serif;
+    }
+    .container p{
+        line-height: 50px;
+    }
+</style>
+</head>
+<body>
+    <div class="container">
+        <div class="box">
+            <h2>Fixed Positioned Box</h2>
+            <div><strong>Note:</strong> The position of this box is fixed relative to the document's viewport. It doesn't scroll with the page.</div>
+        </div>
+    	<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam eu sem tempor, varius quam at, luctus dui. Mauris magna metus, dapibus nec turpis vel, semper malesuada ante. Vestibulum id metus ac nisl bibendum scelerisque non non purus. Suspendisse varius nibh non aliquet sagittis. In tincidunt orci sit amet elementum vestibulum. Vivamus fermentum in arcu in aliquam. Quisque aliquam porta odio in fringilla. Vivamus nisl leo, blandit at bibendum eu, tristique eget risus. Integer aliquet quam ut elit suscipit, id interdum neque porttitor. Integer faucibus ligula.</p>
+        <p>Quis quam ut magna consequat faucibus. Pellentesque eget nisi a mi suscipit tincidunt. Ut tempus dictum risus. Pellentesque viverra sagittis quam at mattis. Suspendisse potenti. Aliquam sit amet gravida nibh, facilisis gravida odio. Phasellus auctor velit at lacus blandit, commodo iaculis justo viverra. Etiam vitae est arcu. Mauris vel congue dolor. Aliquam eget mi mi. Fusce quam tortor, commodo ac dui quis, bibendum viverra erat. Maecenas mattis lectus enim, quis tincidunt dui molestie euismod. Curabitur et diam tristique, accumsan nunc eu.</p>
+    </div>
+</body>
+</html>                            
+
+--How to specify CSS Absolute Positioning?
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>Example of CSS Absolute Positioning</title>
+<style type="text/css">
+    .box{
+        position: absolute;
+        top: 200px;
+        left: 100px;
+        color: #fff;
+        width: 60%;
+        background: #4cafdf;
+        padding: 20px;
+    }
+    .container{
+        padding: 50px;
+        margin: 50px;
+        position: relative;
+        border: 5px solid black;
+        font-family: Arial, sans-serif;
+    }
+    .container p{
+        line-height: 50px;
+    }
+</style>
+</head>
+<body>
+    <div class="container">
+        <div class="box">
+            <h2>Absolute Positioned Box</h2>
+            <div><strong>Note:</strong> This box is absolutely positioned relative to the container DIV element. It is scroll with the page.</div>
+        </div>
+    	<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam eu sem tempor, varius quam at, luctus dui. Mauris magna metus, dapibus nec turpis vel, semper malesuada ante. Vestibulum id metus ac nisl bibendum scelerisque non non purus. Suspendisse varius nibh non aliquet sagittis. In tincidunt orci sit amet elementum vestibulum. Vivamus fermentum in arcu in aliquam. Quisque aliquam porta odio in fringilla. Vivamus nisl leo, blandit at bibendum eu, tristique eget risus. Integer aliquet quam ut elit suscipit, id interdum neque porttitor. Integer faucibus ligula.</p>
+        <p>Quis quam ut magna consequat faucibus. Pellentesque eget nisi a mi suscipit tincidunt. Ut tempus dictum risus. Pellentesque viverra sagittis quam at mattis. Suspendisse potenti. Aliquam sit amet gravida nibh, facilisis gravida odio. Phasellus auctor velit at lacus blandit, commodo iaculis justo viverra. Etiam vitae est arcu. Mauris vel congue dolor. Aliquam eget mi mi. Fusce quam tortor, commodo ac dui quis, bibendum viverra erat. Maecenas mattis lectus enim, quis tincidunt dui molestie euismod. Curabitur et diam tristique, accumsan nunc eu.</p>
+    </div>
+</body>
+</html>  
+
+CSS Visibility:
+---------------
+--Example for Visibility Property
+                       
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Example of CSS visibility</title>
+  <style type="text/css">
+    h1 {
+        visibility: hidden;
+    }
+  </style>
+</head>
+<body>
+    <h1>Hello World!</h1>
+    <p>The <code>visibility: hidden</code> hides the element, but it still takes up space in the layout.</p>  
+</body>
+</html>  
+
+--Example for display property:
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Example of CSS display</title>
+  <style type="text/css">
+    h1 {
+        display: none;
+    }
+  </style>
+</head>
+<body>
+    <h1>Hello World!</h1>
+    <p>The <code>display: none</code> simply causes an element to generate no boxes at all.</p>  
+</body>
+</html>  
+
+--Example for display inline property
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Example of CSS display</title>
+  <style type="text/css">
+    p {
+        display: inline;
+        background: #8FBC8F;
+        padding: 10px;
+    }
+    ul li {
+        display: inline;
+        margin: 10px;
+    }
+  </style>
+</head>
+<body>
+  <p>This paragraph element generates an inline box.</p>
+  <ul>
+    <li>Item 1</li>
+    <li>Item 2</li>
+    <li>Item 3</li>
+    <li>Item 4</li>
+    <li>Item 5</li>
+  </ul>
+</body>
+</html>  
+    
+
+--Example for css display :block level element
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Example of CSS display</title>
+  <style type="text/css">
+    span {
+        display: block;
+        background: #F0E68C;
+    }
+    a {
+        display: block;
+        background: #90EE90;
+    }
+  </style>
+</head>
+<body>
+  <p>
+    <a href="https://www.unisys.com/" target="_top">Visit tutorialrepublic.com</a>
+    <br>
+    <span>This span element generates a block box.</span>
+  </p>
+</body>
+</html>   
+
+CSS Generated Content:
+-----------------------
+* Specify the quotation marks
+
+* Automatic numbering of sections and category
+
+* Insert generated content using CSS
+
+
+
+Example for specify the quotation marks?
+
+TYPE html>
+<html lang="en">
+<head>
+    <title>Example of CSS quotes property</title>
+    <style type="text/css">             
+        q {
+            quotes: '[' ']' '"' '"';
+        }
+        q:before {
+            content: open-quote;
+        }
+        q:after {
+            content: close-quote;
+        }   
+    </style>
+</head>
+<body>
+  <p><q>Here is an example of <q>embedded</q> quotations.</q></p>
+</body>
+</html>                            
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Example of CSS counter-increment property</title>
+    <style type="text/css">            
+		body {
+			counter-reset: section;
+		}
+		h1 {
+			counter-reset: category;
+		}
+		h1:before {
+			counter-increment: section;
+			content: "Section " counter(section) ". ";
+		}
+		h2:before {
+			counter-increment: category;
+			content: counter(section) "." counter(category) " ";
+		}  
+    </style>
+</head>
+<body>
+    <h1>Tutorials</h1>
+    <h2>HTML Tutorial</h2>
+    <h2>CSS Tutorial</h2>
+    <h1>References</h1>
+    <h2>HTML Tags</h2>
+    <h2>CSS Properties</h2>
+    <p><strong>Note:</strong> Internet Explorer 7 and earlier versions don't support the <code>counter-increment</code> property. IE8 supports this property only if a <code>&lt;!DOCTYPE&gt;</code> is specified.</p>
+</body>
+</html> 
+
+CSS OverFlow Property:
+------------------------------
+
+The overflow property specifies what happens if content overflows an element's box.
+
+This property specifies whether to clip content or to add scrollbars when an element's content is too big to fit in a specified area.
+
+Note: The overflow property only works for block elements with a specified height.
+
+syntax:
+
+div
+{
+overflow : scroll | hidden | visible | auto | initial;
+}
+
+overflow:
+
+visible
+hidden
+scroll
+auto
+initial
+           
+
+
+--example
+
+
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+div.scroll {
+    background-color: #00FFFF;
+    width: 100px;
+    height: 100px;
+    overflow: scroll;
+}
+
+div.hidden {
+    background-color: #00FF00;
+    width: 100px;
+    height: 100px;
+    overflow: hidden;
+}
+
+div.visible {
+    background-color: #00FF00;
+    width: 100px;
+    height: 100px;
+    overflow: visible;
+}
+div.auto {
+    background-color: #00FF00;
+    width: 100px;
+    height: 100px;
+    overflow: auto;
+}
+
+div.initial {
+    background-color: #00FFFF;
+    width: 100px;
+    height: 100px;
+    overflow: initial;
+}
+
+
+</style>
+</head>
+<body>
+
+<p>The overflow property specifies what to do if the content of an element exceeds the size of the element's box.</p>
+
+<p>overflow:scroll</p>
+<div class="scroll">You can use the overflow property when you want to have better control of the layout. The default value is visible.</div>
+
+<p>overflow:hidden</p>
+<div class="hidden">You can use the overflow property when you want to have better control of the layout. The default value is visible.</div>
+
+<p>overflow:auto</p>
+<div class="auto">You can use the overflow property when you want to have better control of the layout. The default value is visible.</div>
+
+
+<p>overflow:initial</p>
+<div class="initial">You can use the overflow property when you want to have better control of the layout. The default value is visible.</div>
+<br><br><br>
+
+<p>overflow:visible</p>
+<div class="visible">You can use the overflow property when you want to have better control of the layout. The default value is visible.</div>
+
+
+
+
+</body>
+</html>
+
+
+CSS RGBA Colors:
+---------------------
+* RGBA color values are an extension of RGB color values with an alpha channel - which specifies the opacity for a color.
+
+* An RGBA color value is specified with: rgba(red, green, blue, alpha).
+
+*  The alpha parameter is a number between 0.0 (fully transparent) and 1.0 (fully opaque).
+              
+
+--syntax
+
+#p1 {background-color: rgba(255, 0, 0, 0.3);}  /* red with opacity */
+#p2 {background-color: rgba(0, 255, 0, 0.3);}  /* green with opacity */
+#p3 {background-color: rgba(0, 0, 255, 0.3);}  /* blue with opacity */
+
+
+
+
+--example
+
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+#p1 {background-color:rgba(255,0,0,0.3);}
+#p2 {background-color:rgba(0,255,0,0.3);}
+#p3 {background-color:rgba(0,0,255,0.3);}
+#p4 {background-color:rgba(192,192,192,0.3);}
+#p5 {background-color:rgba(255,255,0,0.3);}
+#p6 {background-color:rgba(255,0,255,0.3);}
+</style>
+</head>
+<body>
+
+<p>RGBA colors:</p>
+<p id="p1">Red</p>
+<p id="p2">Green</p>
+<p id="p3">Blue</p>
+<p id="p4">Grey</p>
+<p id="p5">Yellow</p>
+<p id="p6">Cerise</p>
+
+</body>
+</html>
+
+CSS Border Radius:
+------------------------
+
+* The border-radius property is used to add rounded corners to an element.
+
+* The border-radius property is a shorthand property for setting the four border-*- radius properties.
+
+* If you specify only one value for the border-radius property, this radius will be applied to all 4 corners.
+
+
+* Four values: first value applies to top-left, second value applies to top-right, third value applies to bottom-right, and fourth value applies to bottom-left corner
+
+* Three values: first value applies to top-left, second value applies to top-right and bottom-left, and third value applies to bottom-right
+
+* Two values: first value applies to top-left and bottom-right corner, and the second value applies to top-right and bottom-left corner
+
+* One value: all four corners are rounded equally
+
+1. Four values - border-radius: 15px 50px 30px 5px: 
+
+--example
+
+
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+#rcorners1 {
+    border-radius: 25px;
+    background: #73AD21;
+    padding: 20px;
+    width: 200px;
+    height: 150px;
+}
+
+</style>
+</head>
+<body>
+
+<p>The border-radius property allows you to add rounded corners to elements.</p>
+<p>Rounded corners for an element with a specified background color:</p>
+<p id="rcorners1">Rounded corners!</p>
+<p>Rounded corners for an element with a border:</p>
+
+</body>
+</html>
+
+CSS Word Wrap Property:
+-------------------------------
+
+* The word-wrap property allows long words to be able to be broken and wrap onto the next line.
+
+
+CSS Syntax
+
+word-wrap: normal |break-word |initial;
+
+
+* normal	 - Break words only at allowed break points
+
+* break-word -Allows unbreakable words to be broken
+
+* initial	- Sets this property to its default value.
+                                                
+--example
+
+<!DOCTYPE html>
+<html>
+<head>
+<style> 
+p.test {
+    width: 500px; 
+    border: 1px solid #000000;
+    word-wrap: break-word;
+}
+</style>
+</head>
+<body>
+
+
+
+<p class="test">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam eu 
+sem tempor, varius quam at, luctus dui. Mauris magna metus, dapibus nec turpis 
+vel, semper malesuada ante. Vestibulum id metus ac nisl bibendum scelerisque 
+non non purus. Suspendisse varius nibh non aliquet sagittis. In tincidunt orci sit 
+amet elementum vestibulum. Vivamus fermentum in arcu in aliquam. Quisque 
+aliquam porta odio in fringilla. Vivamus nisl leo, blandit at bibendum eu, tristique 
+eget risus. Integer aliquet quam ut elit suscipit, id interdum neque porttitor. 
+Integer faucibus ligula.</p>
+      
+</body>
+</html>  
+
+CSS transitions 
+--------------------
+* It provide a way to control animation speed when changing CSS properties. 
+
+* Instead of having property changes take effect immediately, you can cause the changes in a property to take place over a period of time.
+
+
+transition: width 2s - 2 seconds
+
+
+
+--example
+
+
+
+<!DOCTYPE html>
+<html>
+<head>
+<style> 
+div {
+    width: 100px;
+    height: 100px;
+    background: red;
+    transition: width 2s;
+}
+
+div:hover {
+    width: 300px;
+}
+</style>
+</head>
+<body>
+
+
+
+<div></div>
+
+<p>Hover over the div element above, to see the transition effect.</p>
+
+</body>
+</html>
+
+--example2
+
+ transition: width 2s, height 4s;
+
+
+<!DOCTYPE html>
+<html>
+<head>
+<style> 
+div {
+    width: 100px;
+    height: 100px;
+    background: red;
+   
+    transition: width 2s, height 4s; - width 2seconds and height 4 seconds.
+}
+
+div:hover {
+    width: 300px;
+    height: 300px;
+}
+</style>
+</head>
+<body>
+
+
+
+<div></div>
+
+<p>Hover over the div element above, to see the transition effect.</p>
+
+</body>
+</html>
+
+CSS Animation :
+-------------------
+
+* An animation lets an element gradually change from one style to another. 
+
+* You can change as many CSS properties you want, as many times you want. 
+
+* To use CSS3 animation, you must first specify some keyframes for the animation. 
+* Keyframes hold what styles the element will have at certain times.
+
+
+
+* The animation code */
+
+@keyframes example {
+    0%   {background-color: red;}
+    25%  {background-color: yellow;}
+    50%  {background-color: blue;}
+    100% {background-color: green;}
+}
+
+The following example will change the background-color of the <div> element when the animation is 25% complete, 
+50% complete, and again when the animation is 100% complete:
+
+
+<!DOCTYPE html>
+<html>
+<head>
+<style> 
+div {
+    width: 100px;
+    height: 100px;
+    background-color: red;
+    position: relative;
+    animation-name: example;
+    animation-duration: 4s;
+}
+
+
+@keyframes example {
+    0%   {background-color:red; left:0px; top:0px;}
+    25%  {background-color:yellow; left:200px; top:0px;}
+    50%  {background-color:blue; left:200px; top:200px;}
+    75%  {background-color:green; left:0px; top:200px;}
+    100% {background-color:red; left:0px; top:0px;}
+}
+</style>
+</head>
+<body>
+
+
+<div></div>
+
+</body>
+</html>
+
+
+
+CSS3 2DTransforms:
+------------------------
+
+CSS3 transforms allow you to translate, rotate, scale, and skew elements.
+
+A transformation is an effect that lets an element change shape, size and position.
+
+CSS3 supports 2D and 3D transformations.
+
+Mouse over the elements below to see the difference between a 2D and a 3D transformation:
+
+
+
+CSS3 2D Transforms
+
+translate()
+rotate()
+scale()
+skewX()
+skewY()
+matrix()
+
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+div {
+    width: 300px;
+    height: 100px;
+    background-color: yellow;
+    border: 1px solid black;
+}
+
+div#myDiv {
+ 
+    transform: rotateX(200deg); 
+}
+</style>
+</head>
+<body>
+
+<div>
+This a normal div element.
+</div>
+
+<div id="myDiv">
+The rotateX() method rotates an element around its X-axis at a given degree. This div element is rotated 150 degrees.
+</div>
+
+
+</body>
+</html>
+
+
+
+CSS3 Gradients:
+---------------
+
+
+Example for Linerar Gradients from Top to Bottom:
+-------------------------------------
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>Example of Linear Gradients from Top to Bottom</title>
+<style type="text/css">      
+	.gradient {
+		width: 400px;
+		height: 300px;
+		
+		background: linear-gradient(red, yellow);
+	}
+</style>
+</head>
+<body>
+    <div class="gradient"></div>
+</body>
+</html>     
+
+--Example for linear-gradient for left to Right 
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>Example of Linear Gradients from Left to Right</title>
+<style type="text/css">      
+	.gradient {
+		width: 400px;
+		height: 300px;
+		
+		background: linear-gradient(to right, red, yellow);
+	}
+</style>
+</head>
+<body>
+    <div class="gradient"></div>
+</body>
+</html>                            
+
+CSS3 Drop Shadows:
+------------------
+
+* Creating box shadow effect
+
+* Adding multiple box shadows to an element's box
+
+* Creating text shadow effect
+
+--Example for Box Shadow Effect:
+--------------------------------
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>Example of CSS3 Box Shadow Effect</title>
+<style type="text/css">      
+    .box{
+		width: 200px;
+		height: 150px;
+		background: #ccc;
+		box-shadow: 5px 5px 10px #999;
+	}
+</style>
+</head>
+<body>
+    <div class="box"></div>
+</body>
+</html> 
+
+
+-- How to Adding multiple box shadows to an element's box ?
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>Example of CSS3 Multiple Box Shadow Effects</title>
+<style type="text/css">      
+    .box{
+		width: 200px;
+		height: 150px;
+		background: #000;
+		box-shadow: 5px 5px 10px red, 10px 10px 20px yellow;
+	}
+</style>
+</head>
+<body>
+    <div class="box"></div>
+</body>
+</html> 
+ 
+--Example of CSS3 Text Shadow Effect
+
+--<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>Example of CSS3 Text Shadow Effect</title>
+<style type="text/css">      
+    h1 {
+		text-shadow: 5px 5px 10px #666;
+	}
+	h2 {
+		text-shadow: 5px 5px 10px red, 10px 10px 20px yellow;
+	}
+</style>
+</head>
+<body>
+    <h1>This is heading 1</h1>
+    <h2>This is heading 2</h2>
+</body>
+</html> 
+
+ CSS3 Multi-column Layouts:
+------------------------------
+
+* Creating multi-column layouts
+
+* Setting column count or width
+
+* Setting gap between the columns
+
+* Adding rule or vertical lines between the columns                            
+
+
+-- How to Create multi-column layouts?
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>Example of CSS3 Multi-column Layout</title>
+<style type="text/css">
+	p {
+		
+				column-count: 3; /* Standard syntax */
+	}
+</style>
+</head>
+<body>
+    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut bibendum nisi egestas suscipit gravida. Sed velit nisl, tristique sed dui mollis, 
+porta tempus ligula. Phasellus vel orci vel arcu pellentesque fermentum. Duis bibendum metus arcu. Aliquam eget tortor vulputate, sollicitudin felis a, 
+mollis libero. Aliquam vitae consequat sapien, id blandit lectus. Integer ac nibh ac nulla tincidunt accumsan sit amet sit amet risus. Integer id nisl urna.
+ In a enim elementum, auctor justo quis, tincidunt augue. Donec nibh dui, congue non neque quis, semper aliquam felis. Praesent efficitur massa vel convallis 
+euismod. Quisque metus lectus, consectetur sit amet justo in, venenatis faucibus nunc. Aenean faucibus, enim id egestas convallis, felis magna mattis est, in 
+ultricies est urna ac nisl.
+    
+    Cras placerat quis tortor quis molestie. Nullam imperdiet gravida velit eget sollicitudin. Nunc dictum pretium justo vel congue. Praesent auctor leo maximus 
+leo aliquam, eget vehicula tortor tincidunt. Vestibulum finibus venenatis dui, nec lobortis mauris convallis id. Maecenas porttitor erat tellus, at vulputate eros
+ euismod a. In aliquam, dolor et bibendum consequat, eros felis ultricies lorem, ac fermentum arcu metus in magna. Integer auctor sapien a massa porta, et suscipit 
+sapien sollicitudin. Maecenas vel hendrerit nibh. Curabitur convallis interdum ornare. Curabitur justo nibh, pretium ac convallis vitae, consectetur sit amet orci.
+ Nunc non enim non ligula efficitur venenatis et at metus. Duis turpis velit, lacinia interdum purus ac, venenatis semper lacus. Aenean mattis fermentum odio ut 
+suscipit.
+    
+    Vestibulum vehicula lobortis diam et pretium. Duis in aliquet tellus. Phasellus tincidunt odio id faucibus malesuada. Cum sociis natoque penatibus et 
+magnis dis parturient montes, nascetur ridiculus mus. Integer euismod porta nibh sit amet efficitur. Phasellus blandit porta vulputate. Proin placerat efficitur
+ cursus. Fusce blandit tristique urna quis mollis. Duis erat lectus, gravida nec tellus eu, cursus laoreet augue. Maecenas in nisi mauris. In vitae justo posuere,
+ tincidunt neque a, ultrices dui. Sed id bibendum metus. Vestibulum at tincidunt felis, in efficitur libero.
+    
+    Mauris bibendum risus non condimentum gravida. Praesent sed dictum augue, sit amet sollicitudin massa. Curabitur sed hendrerit nisi. Nulla eget lacinia tortor,
+ id sollicitudin risus. In hac habitasse platea dictumst. Mauris lorem dui, venenatis et massa eget, pretium auctor risus. Nulla congue bibendum hendrerit. Phasellus 
+nec lorem in ipsum facilisis scelerisque. Duis quis massa metus. Pellentesque commodo metus non bibendum aliquet. Duis pellentesque tempus posuere. Mauris 
+interdum lobortis massa vel sodales.
+    
+    Curabitur feugiat, magna quis ultricies dignissim, felis leo varius nulla, ut blandit arcu libero quis urna. Morbi sollicitudin odio purus, ut elementum 
+mauris feugiat sit amet. Fusce placerat scelerisque turpis. Aliquam erat volutpat. Vestibulum blandit vitae erat a sodales. Integer semper tristique risus eget 
+lobortis. Aliquam luctus sed justo vel auctor. Nunc sit amet nulla eu est fringilla euismod sed ac orci. Sed massa lorem, blandit sed massa quis, condimentum 
+ornare purus.</p>
+</body>
+</html>                            
+
+--How to Setting column count or width?
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>Example of CSS3 Multi-column Layout</title>
+<style type="text/css">
+	p {
+		
+				column-width: 150px; /* Standard syntax */
+	}
+</style>
+</head>
+<body>
+    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut bibendum nisi egestas suscipit gravida. Sed velit nisl, tristique sed dui mollis, porta tempus ligula. Phasellus vel orci vel arcu pellentesque fermentum. Duis bibendum metus arcu. Aliquam eget tortor vulputate, sollicitudin felis a, mollis libero. Aliquam vitae consequat sapien, id blandit lectus. Integer ac nibh ac nulla tincidunt accumsan sit amet sit amet risus. Integer id nisl urna. In a enim elementum, auctor justo quis, tincidunt augue. Donec nibh dui, congue non neque quis, semper aliquam felis. Praesent efficitur massa vel convallis euismod. Quisque metus lectus, consectetur sit amet justo in, venenatis faucibus nunc. Aenean faucibus, enim id egestas convallis, felis magna mattis est, in ultricies est urna ac nisl.
+    
+    Cras placerat quis tortor quis molestie. Nullam imperdiet gravida velit eget sollicitudin. Nunc dictum pretium justo vel congue. Praesent auctor leo maximus leo aliquam, eget vehicula tortor tincidunt. Vestibulum finibus venenatis dui, nec lobortis mauris convallis id. Maecenas porttitor erat tellus, at vulputate eros euismod a. In aliquam, dolor et bibendum consequat, eros felis ultricies lorem, ac fermentum arcu metus in magna. Integer auctor sapien a massa porta, et suscipit sapien sollicitudin. Maecenas vel hendrerit nibh. Curabitur convallis interdum ornare. Curabitur justo nibh, pretium ac convallis vitae, consectetur sit amet orci. Nunc non enim non ligula efficitur venenatis et at metus. Duis turpis velit, lacinia interdum purus ac, venenatis semper lacus. Aenean mattis fermentum odio ut suscipit.
+    
+    Vestibulum vehicula lobortis diam et pretium. Duis in aliquet tellus. Phasellus tincidunt odio id faucibus malesuada. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Integer euismod porta nibh sit amet efficitur. Phasellus blandit porta vulputate. Proin placerat efficitur cursus. Fusce blandit tristique urna quis mollis. Duis erat lectus, gravida nec tellus eu, cursus laoreet augue. Maecenas in nisi mauris. In vitae justo posuere, tincidunt neque a, ultrices dui. Sed id bibendum metus. Vestibulum at tincidunt felis, in efficitur libero.
+    
+    Mauris bibendum risus non condimentum gravida. Praesent sed dictum augue, sit amet sollicitudin massa. Curabitur sed hendrerit nisi. Nulla eget lacinia tortor, id sollicitudin risus. In hac habitasse platea dictumst. Mauris lorem dui, venenatis et massa eget, pretium auctor risus. Nulla congue bibendum hendrerit. Phasellus nec lorem in ipsum facilisis scelerisque. Duis quis massa metus. Pellentesque commodo metus non bibendum aliquet. Duis pellentesque tempus posuere. Mauris interdum lobortis massa vel sodales.
+    
+    Curabitur feugiat, magna quis ultricies dignissim, felis leo varius nulla, ut blandit arcu libero quis urna. Morbi sollicitudin odio purus, ut elementum mauris feugiat sit amet. Fusce placerat scelerisque turpis. Aliquam erat volutpat. Vestibulum blandit vitae erat a sodales. Integer semper tristique risus eget lobortis. Aliquam luctus sed justo vel auctor. Nunc sit amet nulla eu est fringilla euismod sed ac orci. Sed massa lorem, blandit sed massa quis, condimentum ornare purus.</p>
+</body>
+</html>
+
+Example of Setting CSS3 Column Gap
+                                     
+
+--<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>Example of Setting CSS3 Column Gap</title>
+<style type="text/css">
+	p {
+		
+		column-count: 4;
+		column-gap: 100px;
+	}
+</style>
+</head>
+<body>
+    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut bibendum nisi egestas suscipit gravida. Sed velit nisl, tristique sed dui mollis, porta tempus ligula. Phasellus vel orci vel arcu pellentesque fermentum. Duis bibendum metus arcu. Aliquam eget tortor vulputate, sollicitudin felis a, mollis libero. Aliquam vitae consequat sapien, id blandit lectus. Integer ac nibh ac nulla tincidunt accumsan sit amet sit amet risus. Integer id nisl urna. In a enim elementum, auctor justo quis, tincidunt augue. Donec nibh dui, congue non neque quis, semper aliquam felis. Praesent efficitur massa vel convallis euismod. Quisque metus lectus, consectetur sit amet justo in, venenatis faucibus nunc. Aenean faucibus, enim id egestas convallis, felis magna mattis est, in ultricies est urna ac nisl.
+    
+    Cras placerat quis tortor quis molestie. Nullam imperdiet gravida velit eget sollicitudin. Nunc dictum pretium justo vel congue. Praesent auctor leo maximus leo aliquam, eget vehicula tortor tincidunt. Vestibulum finibus venenatis dui, nec lobortis mauris convallis id. Maecenas porttitor erat tellus, at vulputate eros euismod a. In aliquam, dolor et bibendum consequat, eros felis ultricies lorem, ac fermentum arcu metus in magna. Integer auctor sapien a massa porta, et suscipit sapien sollicitudin. Maecenas vel hendrerit nibh. Curabitur convallis interdum ornare. Curabitur justo nibh, pretium ac convallis vitae, consectetur sit amet orci. Nunc non enim non ligula efficitur venenatis et at metus. Duis turpis velit, lacinia interdum purus ac, venenatis semper lacus. Aenean mattis fermentum odio ut suscipit.
+    
+    Vestibulum vehicula lobortis diam et pretium. Duis in aliquet tellus. Phasellus tincidunt odio id faucibus malesuada. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Integer euismod porta nibh sit amet efficitur. Phasellus blandit porta vulputate. Proin placerat efficitur cursus. Fusce blandit tristique urna quis mollis. Duis erat lectus, gravida nec tellus eu, cursus laoreet augue. Maecenas in nisi mauris. In vitae justo posuere, tincidunt neque a, ultrices dui. Sed id bibendum metus. Vestibulum at tincidunt felis, in efficitur libero.
+    
+    Mauris bibendum risus non condimentum gravida. Praesent sed dictum augue, sit amet sollicitudin massa. Curabitur sed hendrerit nisi. Nulla eget lacinia tortor, id sollicitudin risus. In hac habitasse platea dictumst. Mauris lorem dui, venenatis et massa eget, pretium auctor risus. Nulla congue bibendum hendrerit. Phasellus nec lorem in ipsum facilisis scelerisque. Duis quis massa metus. Pellentesque commodo metus non bibendum aliquet. Duis pellentesque tempus posuere. Mauris interdum lobortis massa vel sodales.
+    
+    Curabitur feugiat, magna quis ultricies dignissim, felis leo varius nulla, ut blandit arcu libero quis urna. Morbi sollicitudin odio purus, ut elementum mauris feugiat sit amet. Fusce placerat scelerisque turpis. Aliquam erat volutpat. Vestibulum blandit vitae erat a sodales. Integer semper tristique risus eget lobortis. Aliquam luctus sed justo vel auctor. Nunc sit amet nulla eu est fringilla euismod sed ac orci. Sed massa lorem, blandit sed massa quis, condimentum ornare purus.</p>
+</body>
+</html>  
+
+Example of Setting CSS3 Column Rules?                          
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>Example of Setting CSS3 Column Rules</title>
+<style type="text/css">
+	p {
+		
+		column-count: 3;
+		column-gap: 100px;
+		column-rule: 2px solid red;
+	}
+</style>
+</head>
+<body>
+    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut bibendum nisi egestas suscipit gravida. Sed velit nisl, tristique sed dui mollis, porta tempus ligula. Phasellus vel orci vel arcu pellentesque fermentum. Duis bibendum metus arcu. Aliquam eget tortor vulputate, sollicitudin felis a, mollis libero. Aliquam vitae consequat sapien, id blandit lectus. Integer ac nibh ac nulla tincidunt accumsan sit amet sit amet risus. Integer id nisl urna. In a enim elementum, auctor justo quis, tincidunt augue. Donec nibh dui, congue non neque quis, semper aliquam felis. Praesent efficitur massa vel convallis euismod. Quisque metus lectus, consectetur sit amet justo in, venenatis faucibus nunc. Aenean faucibus, enim id egestas convallis, felis magna mattis est, in ultricies est urna ac nisl.
+    
+    Cras placerat quis tortor quis molestie. Nullam imperdiet gravida velit eget sollicitudin. Nunc dictum pretium justo vel congue. Praesent auctor leo maximus leo aliquam, eget vehicula tortor tincidunt. Vestibulum finibus venenatis dui, nec lobortis mauris convallis id. Maecenas porttitor erat tellus, at vulputate eros euismod a. In aliquam, dolor et bibendum consequat, eros felis ultricies lorem, ac fermentum arcu metus in magna. Integer auctor sapien a massa porta, et suscipit sapien sollicitudin. Maecenas vel hendrerit nibh. Curabitur convallis interdum ornare. Curabitur justo nibh, pretium ac convallis vitae, consectetur sit amet orci. Nunc non enim non ligula efficitur venenatis et at metus. Duis turpis velit, lacinia interdum purus ac, venenatis semper lacus. Aenean mattis fermentum odio ut suscipit.
+    
+    Vestibulum vehicula lobortis diam et pretium. Duis in aliquet tellus. Phasellus tincidunt odio id faucibus malesuada. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Integer euismod porta nibh sit amet efficitur. Phasellus blandit porta vulputate. Proin placerat efficitur cursus. Fusce blandit tristique urna quis mollis. Duis erat lectus, gravida nec tellus eu, cursus laoreet augue. Maecenas in nisi mauris. In vitae justo posuere, tincidunt neque a, ultrices dui. Sed id bibendum metus. Vestibulum at tincidunt felis, in efficitur libero.
+    
+    Mauris bibendum risus non condimentum gravida. Praesent sed dictum augue, sit amet sollicitudin massa. Curabitur sed hendrerit nisi. Nulla eget lacinia tortor, id sollicitudin risus. In hac habitasse platea dictumst. Mauris lorem dui, venenatis et massa eget, pretium auctor risus. Nulla congue bibendum hendrerit. Phasellus nec lorem in ipsum facilisis scelerisque. Duis quis massa metus. Pellentesque commodo metus non bibendum aliquet. Duis pellentesque tempus posuere. Mauris interdum lobortis massa vel sodales.
+    
+    Curabitur feugiat, magna quis ultricies dignissim, felis leo varius nulla, ut blandit arcu libero quis urna. Morbi sollicitudin odio purus, ut elementum mauris feugiat sit amet. Fusce placerat scelerisque turpis. Aliquam erat volutpat. Vestibulum blandit vitae erat a sodales. Integer semper tristique risus eget lobortis. Aliquam luctus sed justo vel auctor. Nunc sit amet nulla eu est fringilla euismod sed ac orci. Sed massa lorem, blandit sed massa quis, condimentum ornare purus.</p>
+</body>
+</html>  
+
+Css Grid:
+-------------
+
+* Create a container element, and declare it display: grid; .
+
+*  Use that same container to define the grid tracks using the grid-template-columns and grid-template-rows properties. 
+
+* Place child elements within the container. 
+
+* Specify where each child belongs on the grid by declaring its grid-column and grid-rows. 
+
+                        
+
+CSS Combinators:
+--------------------
+
+* A combinator is something that explains the relationship between the selectors.
+
+* A CSS selector can contain more than one simple selector. Between the simple selectors, we can include a combinator.
+
+* There are four different combinators in CSS3:
+
+descendant selector (space)
+child selector (>)
+adjacent sibling selector (+)
+general sibling selector (~)
+
+
+
+Descendant Selector:
+-------------------------
+
+*The descendant selector matches all elements that are descendants of a specified element.
+
+The following example selects all <p> elements inside <div> elements: 
+
+Example
+
+div p {
+    background-color: yellow;
+}
+
+
+--Example
+
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+div p {
+    background-color: yellow;
+}
+</style>
+</head>
+<body>
+
+<div>
+  <p>Paragraph 1 in the div.</p>
+  <p>Paragraph 2 in the div.</p>
+  <span><p>Paragraph 3 in the div.</p></span>
+</div>
+
+<p>Paragraph 4. Not in a div.</p>
+<p>Paragraph 5. Not in a div.</p>
+
+</body>
+</html>
+
+
+Child Selector:
+-----------------
+
+The child selector selects all elements that are the immediate children of a specified element.
+
+The following example selects all <p> elements that are immediate children of a <div> element:
+
+Example
+div > p {
+    background-color: yellow;
+}
+
+--Example
+
+<html>
+<head>
+<style>
+div > p {
+    background-color: yellow;
+}
+</style>
+</head>
+<body>
+
+<div>
+  <p>Paragraph 1 in the div.</p>
+  <p>Paragraph 2 in the div.</p>
+  <span><p>Paragraph 3 in the div.</p></span> <!-- not Child but Descendant -->
+</div>
+
+<p>Paragraph 4. Not in a div.</p>
+<p>Paragraph 5. Not in a div.</p>
+
+</body>
+</html>
+
+
+Adjacent Sibling Selector:
+------------------------------
+
+The adjacent sibling selector selects all elements that are the adjacent siblings of a specified element.
+
+Sibling elements must have the same parent element, and "adjacent" means "immediately following".
+
+The following example selects all <p> elements that are placed immediately after <div> elements:
+
+Example
+div + p {
+    background-color: yellow;
+}
+
+--Example
+
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+div + p {
+    background-color: yellow;
+}
+</style>
+</head>
+<body>
+
+<div>
+  <p>Paragraph 1 in the div.</p>
+  <p>Paragraph 2 in the div.</p>
+</div>
+
+<p>Paragraph 3. Not in a div.</p>
+<p>Paragraph 4. Not in a div.</p>
+
+</body>
+</html>
+
+
+General Sibling Selector
+The general sibling selector selects all elements that are siblings of a specified element.
+
+The following example selects all <p> elements that are siblings of <div> elements: 
+
+Example
+div ~ p {
+    background-color: yellow;
+}
+
+
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+div ~ p {
+    background-color: yellow;
+}
+</style>
+</head>
+<body>
+
+<p>Paragraph 1.</p>
+
+<div>
+  <code>Some code.</code>
+  <p>Paragraph 2.</p>
+</div>
+
+<p>Paragraph 3.</p>
+<code>Some code.</code>
+<p>Paragraph 4.</p>
+
+</body>
+</html>
+
+
+How to create fixed header or footer using CSS
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<title>Implement Sticky Header and Footer with CSS</title>
+<style type="text/css">
+    /* Add some padding on document's body to prevent the content
+    to go underneath the header and footer */
+    body{        
+        padding-top: 60px;
+        padding-bottom: 40px;
+    }
+    .fixed-header, .fixed-footer{
+        width: 100%;
+        position: fixed;        
+        background: #333;
+        padding: 10px 0;
+        color: #fff;
+    }
+    .fixed-header{
+        top: 0;
+    }
+    .fixed-footer{
+        bottom: 0;
+    }
+    .container{
+        width: 80%;
+        margin: 0 auto; /* Center the DIV horizontally */
+    }
+    nav a{
+        color: #fff;
+        text-decoration: none;
+        padding: 7px 25px;
+        display: inline-block;
+    }
+</style>
+</head>
+<body>
+    <div class="fixed-header">
+        <div class="container">
+            <nav>
+                <a href="#">Home</a>
+                <a href="#">About</a>
+                <a href="#">Products</a>
+                <a href="#">Services</a>
+                <a href="#">Contact Us</a>
+            </nav>
+        </div>
+    </div>
+    <div class="container">
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit...</p>
+    </div>    
+    <div class="fixed-footer">
+        <div class="container">Copyright &copy; 2016 Your Company</div>        
+    </div>
+</body>
+</html>
+
+
+Before selector:
+
+• It inserts an image before (at left side of) the current element.
+• It is also called as “pseudo element”.
+Syntax: tag::before
+Example: h1::before
+
+
+
+
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+p::after { 
+  content: " - Remember this";
+}
+</style>
+</head>
+<body>
+
+<p>My name is Donald</p>
+<p>I live in Ducksburg</p>
+
+</body>
+</html>
+
+
+
